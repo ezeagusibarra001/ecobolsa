@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from "react"
 import Layout from "./Layout";
-import Nabvar from "./Nabvar"
+
 
 function Comercio(props) {
     
