@@ -6,7 +6,7 @@ function Elegirnos(props) {
 
     return(
         <div>
-            <h1>ESTE ES EL ELEGIRNOS</h1>
+            <h1 className="altura">ESTE ES EL ELEGIRNOS</h1>
         </div>
     )
 }

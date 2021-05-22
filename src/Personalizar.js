@@ -6,7 +6,7 @@ function Personalizar(props) {
 
     return(
         <div>
-            <h1>ESTE ES EL PERSONALIZAR</h1>
+            <h1 id='servicios' className="altura">ESTE ES EL PERSONALIZAR</h1>
         </div>
     )
 }

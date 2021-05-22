@@ -7,9 +7,7 @@ import Elegirnos from "./Elegirnos";
 import Video from "./Video";
 
 
-function Home(props) {
-    
-
+function Home() {
     return(
         <div>
             <Layout>

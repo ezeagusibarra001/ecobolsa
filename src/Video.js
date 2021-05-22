@@ -6,7 +6,7 @@ function Video(props) {
 
     return(
         <div>
-            <h1>ESTE ES EL VIDEO</h1>
+            <h1 className="altura">ESTE ES EL VIDEO</h1>
         </div>
     )
 }

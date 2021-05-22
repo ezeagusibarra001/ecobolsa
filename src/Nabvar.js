@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 import Button from 'react-bootstrap/Button'
 import  "./Home.css"
 import {Link} from "react-router-dom"
-
+import { scroller } from "react-scroll";
 
 
 function Nabvar(props) {
@@ -18,10 +18,28 @@ function Nabvar(props) {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home" className="NavLink" >Conocenos</Nav.Link>
-                    <Nav.Link href="#link" className="NavLink">Servicios</Nav.Link>
-                    <Nav.Link href="#link" className="NavLink">Contacto</Nav.Link>
-                    <Nav.Link href="/Comercios"><Link to="/Comercios" className="NavLink">Comercios</Link></Nav.Link>
+                    <Nav.Link className="NavLink" 
+                    onClick={() => scroller.scrollTo('conocenos', {
+                        smooth: true,
+                        offset: -70,
+                        duration: 500,
+                    })}
+                    >Conocenos</Nav.Link>
+                    <Nav.Link className="NavLink"
+                    onClick={() => scroller.scrollTo('servicios', {
+                        smooth: true,
+                        offset: -70,
+                        duration: 500,
+                    })}
+                    >Servicios</Nav.Link>
+                    <Nav.Link><Link to="/" className="NavLink"
+                     onClick={() => scroller.scrollTo('contacto', {
+                        smooth: true,
+                        offset: -70,
+                        duration: 500,
+                    })}
+                    >Contacto</Link></Nav.Link>
+                    <Nav.Link><Link to="/Comercios" className="NavLink">Comercios</Link></Nav.Link>
                 </Nav>
                 <Form inline>
                     <Button variant="outline-success">Search</Button>
