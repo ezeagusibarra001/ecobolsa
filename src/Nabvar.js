@@ -41,9 +41,6 @@ function Nabvar(props) {
                     >Contacto</Link></Nav.Link>
                     <Nav.Link><Link to="/Comercios" className="NavLink">Comercios</Link></Nav.Link>
                 </Nav>
-                <Form inline>
-                    <Button variant="outline-success">Search</Button>
-                </Form>
                 </Navbar.Collapse>
             </Navbar>
         </div>

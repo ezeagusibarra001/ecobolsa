@@ -1,6 +1,5 @@
 .NavBar{
     background-color: white;
-    font-size: 30px;
 }
 .NavLink{
     color: rgb(15, 189, 15) !important;
@@ -11,19 +10,21 @@
 }
 .Carrusel{
     display: block;
-    height: 900px;
-    width: 1600px;
+    height: 100%;
+    width: 100%;
    
 }
 .Video{
     background-color:green;
     text-align: center;
     height: 400px;
+    width: 100%;
     border: solid black;
 }
 .FondoEco{
     border: solid black;
     height: 700px;
+    width: 100%;
 }
 .Tittle{
     color: green;

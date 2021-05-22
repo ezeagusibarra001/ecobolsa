@@ -6,7 +6,7 @@ function Econews(props) {
     
 
     return(
-        <div className="FondoEco">
+        <div className="FondoEco" id="conocenos">
             <h1 className="Tittle">ANUNCIA EN LAS <b>ECO NEWS</b></h1>
 
             <div className="EcoTexto">
