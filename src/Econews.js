@@ -35,7 +35,7 @@ function Econews(props) {
                 </h3>
             </div>
 
-            <div className="PossitionButton">
+            <div className="d-flex justify-content-center">
                 <Button variant="success" className="Button">Conoce Mas</Button>
             </div>
 
