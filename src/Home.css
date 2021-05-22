@@ -23,10 +23,28 @@
 }
 .FondoEco{
     border: solid black;
-    height: 600px;
+    height: 700px;
 }
 .Tittle{
     color: green;
     text-align: center;
     margin-top: 100px;
+}
+.EcoTexto{
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 100px;
+}
+.EcoLineas{
+    font-size: 20px;
+}
+.Button{
+    margin-left: 570px;
+    margin-top: 100px;
+    font-size: 30px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    text-align: center !important;
+    border-radius: 20px !important;
 }
