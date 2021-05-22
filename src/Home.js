@@ -7,11 +7,12 @@ import Elegirnos from "./Elegirnos";
 import Video from "./Video";
 
 
-function Home() {
+function Home(props) {
+    const img="assets/carrusel_1.jpg"
     return(
         <div>
             <Layout>
-            <Carrusel/>
+            <Carrusel img={img}/>
             <Video/>
             <Econews/>
             <Personalizar/>
