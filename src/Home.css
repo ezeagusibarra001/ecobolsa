@@ -2,12 +2,20 @@
     background-color: white;
 }
 .NavLink{
-    color: rgb(15, 189, 15) !important;
+    color: rgb(2, 136, 2) !important;
     margin-left: 60px;
 }
 .NavIcon{
-    color: rgb(15, 189, 15) !important;
+    color: rgb(2, 136, 2) !important;
     margin-left: 25px;
+}
+.Icon{
+    background-color:  rgb(2, 136, 2) !important;
+    border: none;
+    border-radius: 100%;
+    color: white !important;
+    width: 35px;
+    height: 35px;
 }
 .altura{
     color: black;
