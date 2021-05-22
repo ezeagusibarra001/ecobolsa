@@ -7,7 +7,7 @@ function Carrusel(props) {
 
     return(
         <div>
-            <Carousel>
+            <Carousel id="logo">
                 <Carousel.Item>
                         <img
                         className="Carrusel"

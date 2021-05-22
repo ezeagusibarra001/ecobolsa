@@ -1,45 +1,47 @@
 import React,{useState,useEffect} from "react"
 import Navbar from 'react-bootstrap/Navbar'
-import Form from 'react-bootstrap/Form'
 import Nav from 'react-bootstrap/Nav'
 import  "./Home.css"
 import {Link} from "react-router-dom"
 import { scroller } from "react-scroll";
-import Button from 'react-bootstrap/Button'
 
-
-function Nabvar(props) {
-
-
+function Nabvar() {
     return(
         <div>
             <Navbar  expand="lg" className="NavBar">
-                <Navbar.Brand><Link to="/" className="NavLink">Eco-Bolsa</Link></Navbar.Brand>
+                <Navbar.Brand><Link to="/" className="NavLink"
+                onClick={() => scroller.scrollTo('logo', {
+                        smooth: true,
+                        offset: -70,
+                        duration: 1000,
+                    })}
+                >Eco-Bolsa</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto p-2">
-                    <Nav.Link className="NavLink" 
-                    onClick={() => scroller.scrollTo('conocenos', {
+                    <Nav.Link><Link to="/" className="NavLink"
+                     onClick={() => scroller.scrollTo('conocenos', {
                         smooth: true,
                         offset: -70,
-                        duration: 500,
+                        duration: 1000,
                     })}
-                    >Conocenos</Nav.Link>
-                    <Nav.Link className="NavLink"
-                    onClick={() => scroller.scrollTo('servicios', {
+                    >Conocenos</Link></Nav.Link>
+                    <Nav.Link><Link to="/" className="NavLink"
+                     onClick={() => scroller.scrollTo('servicios', {
                         smooth: true,
                         offset: -70,
-                        duration: 500,
+                        duration: 1000,
                     })}
-                    >Servicios</Nav.Link>
+                    >Servicios</Link></Nav.Link>
                     <Nav.Link><Link to="/" className="NavLink"
                      onClick={() => scroller.scrollTo('contacto', {
                         smooth: true,
                         offset: -70,
-                        duration: 2000,
+                        duration: 1000,
                     })}
                     >Contacto</Link></Nav.Link>
-                    <Nav.Link><Link to="/Comercios" className="NavLink">Comercios</Link></Nav.Link>
+                    <Nav.Link><Link to="/Comercios" className="NavLink"
+                    >Comercios</Link></Nav.Link>
                     <Nav.Link className="NavIcon">
                     <button className="Icon" href="https://www.instagram.com/?hl=es-la"> 
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"

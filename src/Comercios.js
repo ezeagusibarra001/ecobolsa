@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from "react"
 import Layout from "./Layout";
+import Locales from "./Locales";
 
 
 function Comercio(props) {
@@ -8,7 +9,7 @@ function Comercio(props) {
     return(
         <div>
             <Layout>
-            <h1>ESTO ES COMERCIOS</h1>
+            <Locales/>
             </Layout>
         </div>
     )

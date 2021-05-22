@@ -5,7 +5,7 @@ function Personalizar(props) {
     
 
     return(
-        <div className="FondoPersonalizar">
+        <div className="FondoPersonalizar" id="servicios">
             <h1>Esto es Personalizar</h1>
         </div>
     )
