@@ -5,11 +5,15 @@
     color: rgb(15, 189, 15) !important;
     margin-left: 60px;
 }
+.NavIcon{
+    color: rgb(15, 189, 15) !important;
+    margin-left: 25px;
+}
 .altura{
     color: black;
 }
 .separado{
-    margin-left: 50%;
+    margin-left: 40%;
 }
 .Carrusel{
     display: block;
@@ -51,8 +55,7 @@
     border-radius: 20px !important;
 }
 .PossitionButton{
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: 35% !important;
 }
 .FondoPersonalizar{
     width: 100%;
