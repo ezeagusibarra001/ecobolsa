@@ -8,21 +8,23 @@
 .altura{
     color: black;
 }
+.separado{
+    margin-left: 50%;
+}
 .Carrusel{
     display: block;
     height: 100%;
     width: 100%;
-   
 }
 .Video{
     background-color:green;
     text-align: center;
     height: 400px;
     width: 100%;
-    border: solid black;
+    border: solid 1px black;
 }
 .FondoEco{
-    border: solid black;
+    border: solid 1px black;
     height: 700px;
     width: 100%;
 }
@@ -55,5 +57,5 @@
 .FondoPersonalizar{
     width: 100%;
     height: 600px;
-    border: solid black;
+    border: solid 1px black;
 }
