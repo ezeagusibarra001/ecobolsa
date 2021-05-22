@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 import  "./Home.css"
 import {Link} from "react-router-dom"
 import { scroller } from "react-scroll";
+import Button from 'react-bootstrap/Button'
 
 
 function Nabvar(props) {

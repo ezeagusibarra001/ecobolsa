@@ -5,8 +5,8 @@ function Footer(props) {
     
 
     return(
-        <div>
-            <h1 id="contacto" className="altura">ESTE ES EL FOOTER</h1>
+        <div className="FondoFooter">
+            <h1 id="contacto" className="TittleFooter">ESTE ES EL FOOTER</h1>
         </div>
     )
 }
