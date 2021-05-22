@@ -1,9 +1,32 @@
 .NavBar{
     background-color: white;
+    font-size: 30px;
 }
 .NavLink{
     color: rgb(15, 189, 15) !important;
+    margin-left: 60px;
 }
 .altura{
-    height: 500px;
+    color: black;
+}
+.Carrusel{
+    display: block;
+    height: 900px;
+    width: 1600px;
+   
+}
+.Video{
+    background-color:green;
+    text-align: center;
+    height: 400px;
+    border: solid black;
+}
+.FondoEco{
+    border: solid black;
+    height: 600px;
+}
+.Tittle{
+    color: green;
+    text-align: center;
+    margin-top: 100px;
 }

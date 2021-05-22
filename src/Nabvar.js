@@ -14,7 +14,7 @@ function Nabvar(props) {
     return(
         <div>
             <Navbar  expand="lg" className="NavBar">
-                <Navbar.Brand><Link to="/">Eco-Bolsa</Link></Navbar.Brand>
+                <Navbar.Brand><Link to="/" className="NavLink">Eco-Bolsa</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
@@ -36,7 +36,7 @@ function Nabvar(props) {
                      onClick={() => scroller.scrollTo('contacto', {
                         smooth: true,
                         offset: -70,
-                        duration: 500,
+                        duration: 2000,
                     })}
                     >Contacto</Link></Nav.Link>
                     <Nav.Link><Link to="/Comercios" className="NavLink">Comercios</Link></Nav.Link>
