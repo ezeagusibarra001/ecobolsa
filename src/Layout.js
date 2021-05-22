@@ -7,6 +7,7 @@ function Layout(props) {
     return(
         <div>
            <Nabvar/> 
+           {props.children}
         </div>
     )
 }
