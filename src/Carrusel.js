@@ -11,7 +11,7 @@ function Carrusel(props) {
                 <Carousel.Item>
                         <img
                         className="Carrusel"
-                        src="https://emasp.org/blog/wp-content/uploads/2019/09/nature-3294632_1280-1024x682.jpg"
+                        src="assets/carrusel_1.jpg"
                         alt="First slide"
                         />
                     <Carousel.Caption>
@@ -22,7 +22,7 @@ function Carrusel(props) {
                 <Carousel.Item>
                     <img
                     className="Carrusel"
-                    src="https://emasp.org/blog/wp-content/uploads/2019/09/nature-3294632_1280-1024x682.jpg"
+                    src="assets/carrusel_1.jpg"
                     alt="Second slide"
                     />
                     <Carousel.Caption>
@@ -33,7 +33,7 @@ function Carrusel(props) {
                 <Carousel.Item>
                     <img
                     className="Carrusel"
-                    src="https://emasp.org/blog/wp-content/uploads/2019/09/nature-3294632_1280-1024x682.jpg"
+                    src="assets/carrusel_1.jpg"
                     alt="Third slide"
                     />
                     <Carousel.Caption>

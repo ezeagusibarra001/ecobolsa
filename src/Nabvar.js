@@ -17,7 +17,7 @@ function Nabvar(props) {
                 <Navbar.Brand><Link to="/" className="NavLink">Eco-Bolsa</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="float-md-right">
                     <Nav.Link className="NavLink" 
                     onClick={() => scroller.scrollTo('conocenos', {
                         smooth: true,
