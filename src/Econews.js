@@ -34,7 +34,11 @@ function Econews(props) {
                     Estos comercios son rubros escenciales y de mucha rotacion.
                 </h3>
             </div>
-            <Button variant="success" className="Button">Conoce Mas</Button>
+
+            <div className="PossitionButton">
+                <Button variant="success" className="Button">Conoce Mas</Button>
+            </div>
+
         </div>
     )
 }
