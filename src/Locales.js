@@ -14,7 +14,7 @@ function Locales(props) {
             
             {locales.map((local)=>(
             <Col >
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '18rem', marginTop:'2rem'}}>
                 <Card.Img variant="top" src="assets/almagro.png" />
                 <Card.Body>
                     <Card.Title>{local.name}</Card.Title>
