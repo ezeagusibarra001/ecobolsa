@@ -4,8 +4,10 @@
     display: flex !important;
     z-index: 1000000000 !important;
     width: 100%;
-    opacity: 85%;
     height: 80px;
+}
+.logo{
+    width: 70%;
 }
 .NavLink{
     color: rgb(2, 136, 2) !important;

@@ -15,7 +15,11 @@ function Nabvar() {
                         offset: -70,
                         duration: 1000,
                     })}
-                >Eco-Bolsa</Link></Navbar.Brand>
+                ><img
+                        className="logo"
+                        src="assets/logo.png"
+                        alt="First slide"
+                        /></Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto p-2">
