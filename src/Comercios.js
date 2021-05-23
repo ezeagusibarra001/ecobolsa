@@ -6,12 +6,12 @@ import Carrusel from "./Carrusel";
 
 function Comercio(props) {
     
-    const img="https://nextrategic.com/wp-content/uploads/2019/08/Mercado-libre-lanza-categoria-Eco-Friendly-810x405.jpg"
+    const img1="https://nextrategic.com/wp-content/uploads/2019/08/Mercado-libre-lanza-categoria-Eco-Friendly-810x405.jpg"
 
     return(
         <div>
             <Layout>
-                <Carrusel img={img}/>
+                <Carrusel img1={img1}/>
                 <Locales/>
                 </Layout>
         </div>

@@ -3,7 +3,8 @@ import Carousel from 'react-bootstrap/Carousel'
 
 
 function Carrusel(props) {
-    const img=props.img
+    const img1=props.img1
+    const img2=props.img2
 
     return(
         <div>
@@ -11,7 +12,7 @@ function Carrusel(props) {
                 <Carousel.Item>
                         <img
                         className="Carrusel"
-                        src={img}
+                        src={img1}
                         alt="First slide"
                         />
                     <Carousel.Caption>
@@ -22,7 +23,7 @@ function Carrusel(props) {
                 <Carousel.Item>
                     <img
                     className="Carrusel"
-                    src={img}
+                    src={img1}
                     alt="Second slide"
                     />
                     <Carousel.Caption>
@@ -33,7 +34,7 @@ function Carrusel(props) {
                 <Carousel.Item>
                     <img
                     className="Carrusel"
-                    src={img}
+                    src={img1}
                     alt="Third slide"
                     />
                     <Carousel.Caption>

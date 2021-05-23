@@ -65,8 +65,8 @@
     font-size: 20px;
 }
 .Button{
-    margin-top: 100px;
-    font-size: 30px !important;
+    margin-top: 5%;
+    font-size: 19px !important;
     padding-left: 100px !important;
     padding-right: 100px !important;
     text-align: center !important;
@@ -79,8 +79,27 @@
     width: 100%;
     height: 768px;
     border: solid 1px black;
-    background-image:url('./assetsSrc/econews.png');
+    background-image: url('./assetsSrc/econews.png'); 
 }
+.PersonalizarTexto{
+    color: white;
+    margin-left: 5%;
+}
+.ContedorTexto{
+    margin-top: 5%;
+}
+.IconoPersonalizar{
+    color: white;
+}
+.row{
+    margin-top: 5%;
+    text-align: center;
+}
+.container{
+    margin-left: 10% !important;
+    margin-right: 90% !important;
+}
+
 .FondoElegirnos{
     width: 100%;
     height: 700px;

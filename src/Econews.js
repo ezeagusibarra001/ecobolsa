@@ -1,8 +1,12 @@
+
 import React,{useState,useEffect} from "react"
 import Button from 'react-bootstrap/Button'
-
+import ButtonX from "./ButtonX";
 
 function Econews(props) {
+
+    const variant="success"
+    const text="Conoce Mas"
     
 
     return(
@@ -34,9 +38,11 @@ function Econews(props) {
                     Estos comercios son rubros escenciales y de mucha rotacion.
                 </h3>
             </div>
-
+            <br></br>
+            <br></br>
+            <br></br>
             <div className="d-flex justify-content-center">
-                <Button variant="success" className="Button">Conoce Mas</Button>
+                <ButtonX variant={variant} text={text} />
             </div>
 
         </div>

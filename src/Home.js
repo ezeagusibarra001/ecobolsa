@@ -8,11 +8,12 @@ import Video from "./Video";
 
 
 function Home(props) {
-    const img="assets/carrusel1.jpg"
+    const img1="assets/carrusel1.jpg"
+    const img2="assets/logo.png"
     return(
         <div>
             <Layout>
-            <Carrusel img={img}/>
+            <Carrusel img1={img1} img2={img2}/>
             <Video/>
             <Econews/>
             <Personalizar/>
