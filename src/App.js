@@ -1,7 +1,6 @@
 
-import Home from "./Home"
-import Comercios from "./Comercios"
-import  "./Home.css"
+import Home from "./Home/Home"
+import Comercios from "./Comercios/Comercios"
 import {BrowserRouter,Route} from "react-router-dom"
 
 function App() {

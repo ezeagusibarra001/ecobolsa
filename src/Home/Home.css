@@ -1,0 +1,67 @@
+/*------------------------------------CARRUSEL------------------------------------*/
+.Carruselfondo{
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color: green;
+    color: black;
+    margin: auto;
+}
+.Carrusel{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.ButtonC{
+    width: auto;
+    height: auto;
+}
+/*------------------------------------VIDEO------------------------------------*/
+.Video{
+    display: block;
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    border: solid black;
+    color: black;
+    text-align: center;
+}
+/*------------------------------------ECONEWS------------------------------------*/
+.Fondoeconews{
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color: green;
+    border: solid black;
+}
+.Imagen{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.ButtonE{
+    margin-left: 35%;
+    font-size: 50px;
+    border-radius: 40px;
+    background-color: white;
+    color: green;
+    padding: 0px 30px;
+}
+/*------------------------------------PERSONALIZAR------------------------------------*/
+.Personalizar{
+    display: block;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    border: solid black;
+    color: black;
+}
+/*------------------------------------ELEGIRNOS------------------------------------*/
+.Elegirnos{
+    display: block;
+    height: 400px;
+    width: 100%;
+    background-color: green;
+    border: solid black;
+    color: black;
+}

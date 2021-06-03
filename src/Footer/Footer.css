@@ -1,0 +1,8 @@
+.FondoFooter{
+    display: block;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    border: solid black;
+    color: black;
+}

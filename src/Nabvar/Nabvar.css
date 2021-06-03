@@ -1,0 +1,28 @@
+.NavBar{
+    background-color: white;
+    /*position: fixed !important;       Arreglar dinamica Nabvar*/
+    display: flex !important;
+    z-index: 1000000000 !important;
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    width: 70%;
+}
+.NavLink{
+    color: rgb(2, 136, 2) !important;
+    margin-left: 60px!important;
+}
+.NavIcon{
+    color: rgb(2, 136, 2) !important;
+    margin-left: 15px !important;
+}
+.Icon{
+    background-color:  rgb(2, 136, 2) !important;
+    border: none !important;
+    border-radius: 100% !important;
+    color: white !important;
+    width: 35px !important;
+    height: 35px !important;
+    font-family:serif !important;
+}
