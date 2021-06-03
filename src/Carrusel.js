@@ -12,7 +12,7 @@ function Carrusel(props) {
         
         <div className="Carruselfondo">
 
-            <Carousel>
+            <Carousel className="Carruselcontainer">
 
                 <Carousel.Item>
                     <img

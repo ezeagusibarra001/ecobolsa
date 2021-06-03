@@ -7,8 +7,14 @@ function Personalizar(props) {
 
     return(
         
-        <div className="Personalizar">
-            <h1>Personalizar</h1>
+        <div className="Personalizarfondo">
+            <img 
+            className="Imgpersonalizar"
+            src="../assets/Personalizar.png"
+            />
+            <button className="ButtonP">¡Presupuesto Sin Cargo!</button>
+
+
         </div>
     )
     

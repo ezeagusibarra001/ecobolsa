@@ -7,8 +7,11 @@ function Elegirnos(props) {
 
     return(
         
-        <div className="Elegirnos">
-            <h1>Elegirnos</h1>
+        <div className="Elegirnosfondo">
+            <img
+            className="Imgelegirnos"
+            src="../assets/Elegirnos.png"
+            />
         </div>
     )
     

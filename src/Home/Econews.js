@@ -9,13 +9,14 @@ function Econews(props) {
     return(
         
         <div className="Fondoeconews">
+            
             <img 
-                className="Imagen"
+                className="Imagen" 
                 src="../assets/Fondoeconews.png"
             />
-             <button className="ButtonE">Conoce Mas</button>
-            
-
+            <button className="ButtonE">Conoce Mas</button>
+           
+                
         </div>
     )
     
