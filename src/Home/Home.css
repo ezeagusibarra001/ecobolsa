@@ -17,9 +17,40 @@
     width: 100%;
     height: auto;
 }
+.ContenedorButton{
+    height: auto;
+}
 .ButtonC{
     width: auto;
     height: auto;
+    color: white;
+    background-color: #009600;
+    font-size: 60px;
+    padding: 0px 60px;
+    border: transparent;
+    border-radius: 50px;
+}
+.ButtonC:hover{
+    cursor: pointer;
+    color: #009600;
+    background-color: white;
+    border: solid #009600;
+}
+@media screen and (max-width: 1000px){
+    .ButtonC{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 600px){
+    .ButtonC{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .ButtonC{
+        font-size: 5px;
+        padding: 0px 20px;
+    }
 }
 /*------------------------------------VIDEO------------------------------------*/
 .Video{
@@ -36,57 +67,93 @@
     display: block;
     height: auto;
     width: 100%;
-    background-color: green;
-    border: solid black;
+    background-color: #009e00;
 }
 .Imagen{
     display: block;
     height: auto;
     width: 100%;
 }
+.ContenedorButtonE{
+    width: 100%;
+    height: auto;
+}
+.ContenedorButtonE{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
 .ButtonE{
-    margin-left: 35%;
-    font-size: 50px;
     border-radius: 40px;
     background-color: white;
     color: green;
-    padding: 0px 30px;
+
+    grid-column-start: 2;   
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: 5px 0px;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.ButtonE:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #009600;
+    border: solid white 2px;
+}
+@media screen and (max-width: 1000px){
+    .ContenedorButtonE{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 40px;
+    }
+    .ButtonE{
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+}
+@media screen and (max-width: 600px){
+    .ContenedorButtonE{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 40px;
+    }
 }
 /*------------------------------------PERSONALIZAR------------------------------------*/
 .Personalizarfondo{
     display: block;
     height: auto;
     width: 100%;
-    background-color: white;
+    background-color: rgb(124, 119, 119);
     margin: 0px 0px;
-    border: solid black;
+   
 }
 .Imgpersonalizar{
     display: block;
-    height: auto;
+    height: 100%;
     width: 100%;
+    margin: 0px;
 }
+/*
 .ButtonP{
-    margin-left: 35%;
-    font-size: 50px;
-    border-radius: 40px;
-    background-color: white;
-    color: green;
-    padding: 0px 30px;
-    margin-bottom: 20px;
-}
+    ----------------------------------LE PUSE LA CLASE DEL ButtonE------------------
+}*/
 /*------------------------------------ELEGIRNOS------------------------------------*/
 .Elegirnosfondo{
     display: block;
     height: auto;
     width: 100%;
     background-color: rgb(201, 198, 198);
-    border: solid black;
     color: black;
+    
 }
 .Imgelegirnos{
     display: block;
-    height: auto;
+    height: 100%;
     width: 100%;
 }
 

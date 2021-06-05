@@ -54,7 +54,7 @@ function Footer(props) {
                 </div>
 
                 <div className="Pibicreditos">
-                    <p className="Pibitexto">PubliCity 2021 | Sitio Web por <a target="_blank" href="https://www.instagram.com/pibi.agencia/?hl=es-la" className="Pibicreditos">Pibi Agencia</a></p>
+                    <p className="Pibitexto">PubliCity 2021 | Sitio Web por <a target="_blank" href="https://www.instagram.com/pibi.agencia/?hl=es-la" className="Pibicreditos"><b>Pibi Agencia</b></a></p>
                 </div>
             </div>
         </div>

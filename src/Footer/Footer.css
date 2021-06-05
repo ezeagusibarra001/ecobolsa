@@ -3,6 +3,7 @@
     height: auto;
     width: 100%;
     background-image: url("../assetsSrc/Footer.png");
+    border: solid transparent;
 }
 
 /*----------------------------PROPIEDADES CONTENEDOR PADRE E HIJOS----------------------------*/
