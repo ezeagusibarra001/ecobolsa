@@ -15,7 +15,7 @@ function Econews(props) {
                 src="../assets/Fondoeconews.png"
             />
             <div className="ContenedorButtonE">
-                <button className="ButtonE"><b>CONOCÉ MÁS</b></button>
+                <button className="ButtonE"> <b>CONOCÉ MÁS</b> </button>
             </div>
             
            

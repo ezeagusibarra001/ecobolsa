@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from "react"
 import Layout from "../Layout";
 import Carrusel from "../Carrusel"
+import Banner from "./Banner"
 
 
 function Comercio(props) {
@@ -15,6 +16,7 @@ function Comercio(props) {
         <div>
             <Layout>
                 <Carrusel img1={img1} img2={img2} img4={img4}/>
+                <Banner/>
             </Layout>
         </div>
     )
