@@ -32,8 +32,8 @@ function Nabvar() {
                 <div className="ContenedorNavLink">
                 <Navbar.Collapse id="basic-navbar-nav">            
                     <Nav>
-                        <Nav.Link className="Navlink" onClick={scrollconocenos}> <b>CONOCENOS</b> </Nav.Link>
-                        <Nav.Link className="Navlink" onClick={scrollservicios}> <b>SERVICIOS</b> </Nav.Link>
+                        <Nav.Link  onClick={scrollconocenos}> <Link to="/" className="Navlink"> <b>CONOCENOS</b> </Link> </Nav.Link>
+                        <Nav.Link className="Navlink" onClick={scrollservicios}> <Link to="/" className="Navlink"> <b>SERVICIOS</b> </Link> </Nav.Link>
                         <Nav.Link> <Link to="/Comercios" className="Navlink"> <b>COMERCIOS ADHERIDOS</b> </Link> </Nav.Link>
                         <Nav.Link href="https://www.instagram.com/francopetosa__/?hl=es-la" target="_blank" className="Icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
