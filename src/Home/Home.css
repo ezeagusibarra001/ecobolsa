@@ -6,7 +6,6 @@
     background-color: green;
     color: black;
     margin: auto;
-    border: solid black;
 }
 .Carruselcontainer{
     width: 100%;
@@ -55,7 +54,7 @@
 /*------------------------------------VIDEO------------------------------------*/
 .Video{
     display: block;
-    height: 600px;
+    height: 200px;
     width: 100%;
     background-color: white;
     border: solid black;
@@ -87,6 +86,7 @@
     border-radius: 40px;
     background-color: white;
     color: green;
+    border: solid transparent;
 
     grid-column-start: 2;   
     grid-column-end: 3;

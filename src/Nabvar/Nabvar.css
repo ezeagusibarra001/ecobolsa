@@ -1,28 +1,75 @@
-.NavBar{
-    background-color: white;
-    /*position: fixed !important;       Arreglar dinamica Nabvar*/
+/*--------------------------------------NAV-LINK--------------------------------------*/
+.NavContenedor{
+   
+    display: grid !important;
+    grid-template-columns: 1fr 1fr  !important;
+    grid-template-rows: auto auto !important;
+}
+.ContenedorNavLink{
+    
+    grid-column-start: 2 !important;
+    grid-column-end: 3 !important;
+    grid-row-start: 1 !important;
+    grid-row-end: 1 !important;
+
     display: flex !important;
-    z-index: 1000000000 !important;
-    width: 100%;
-    height: 80px;
+    align-items: center !important;
+    justify-content: center !important;
 }
-.logo{
-    width: 70%;
-}
-.NavLink{
-    color: rgb(2, 136, 2) !important;
-    margin-left: 60px!important;
-}
-.NavIcon{
-    color: rgb(2, 136, 2) !important;
-    margin-left: 15px !important;
+.Navlink{
+    color: black !important;
+    font-size: 20px;
 }
 .Icon{
-    background-color:  rgb(2, 136, 2) !important;
-    border: none !important;
-    border-radius: 100% !important;
     color: white !important;
-    width: 35px !important;
-    height: 35px !important;
-    font-family:serif !important;
+    background-color: #009600;
+    border-radius: 30px;
+    padding: 10px;
+}
+/*--------------------------------------LOGO--------------------------------------*/
+.ContenedorLogo{
+    width: 100%;
+    height: auto;
+    
+    grid-column-start: 1 !important;
+    grid-column-end: 2 !important;
+    grid-row-start: 1 !important;
+    grid-row-end: 1 !important;
+}
+.Logo{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*--------------------------------------@MEDIA SCREEN--------------------------------------*/
+@media screen and (max-width: 1000px){
+    .Icon{
+        color:  #009600 !important;
+        background-color: white;
+    }
+    
+/*--------------------------------------GRILLA--------------------------------------*/
+.ContenedorNavLink{
+    
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+    grid-row-start: 2 !important;
+    grid-row-end: 3 !important;
+
+    
+}
+.ContenedorLogo{
+    
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+    grid-row-start: 1 !important;
+    grid-row-end: 2 !important;
+}
+}
+@media screen and (max-width: 1200px){
+    .Navlink{
+        font-size: 100%;
+    }
 }
