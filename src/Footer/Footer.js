@@ -6,7 +6,7 @@ function Footer(props) {
     
 
     return(
-        <div className="Footerfondo" id="contacto">
+        <div className="Footerfondo" >
 
             <div className="Contenedor">
 

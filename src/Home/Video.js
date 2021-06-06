@@ -7,7 +7,7 @@ function Video(props) {
 
     return(
         
-        <div className="Video">
+        <div className="Video"id="Video">
             <h1>Video</h1>
         </div>
     )

@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from "react"
 import "./Home.css"
-import Button from 'react-bootstrap/Button'
+
 
 
 function Econews(props) {
@@ -8,7 +8,7 @@ function Econews(props) {
 
     return(
         
-        <div className="Fondoeconews">
+        <div className="Fondoeconews" id="Econews">
             
             <img 
                 className="Imagen" 

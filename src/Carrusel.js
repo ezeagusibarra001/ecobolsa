@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react"
 import "./Home/Home.css"
 import Carousel from 'react-bootstrap/Carousel'
-
+import { scroller } from "react-scroll";
 
 
 function Carrusel(props) {
@@ -9,6 +9,14 @@ function Carrusel(props) {
     const img1=props.img1
     const img2=props.img2
     const img4=props.img4
+
+    const scrollservicios=()=>{
+        scroller.scrollTo('Econews',{
+            smooth: true,
+            offset: -70,
+            duration:2000,
+        })
+    }
     return(
         
         <div className="Carruselfondo">
@@ -44,7 +52,7 @@ function Carrusel(props) {
                         alt="Third slide"
                     />
                     <Carousel.Caption className="ContenedorButton">
-                    <button  className="ButtonC" >CONOCÉ MÁS</button>
+                    <button  className="ButtonC" onClick={scrollservicios} >CONOCÉ MÁS</button>
                     </Carousel.Caption>
                 </Carousel.Item>
 

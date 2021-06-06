@@ -7,7 +7,7 @@ function Comercio(props) {
 
     const img1="../assets/Carrusel3.png"
     const img2="../assets/Carrusel2.png"
-    const img4={img1}
+    const img4="../assets/Carrusel4.png"
     
    
 
