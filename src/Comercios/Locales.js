@@ -13,7 +13,6 @@ function Locales(props) {
 
 
     const clickalert=()=>{
-        alert("Este Comercio Adherido no posee cuenta de Instagram")
         setAlerInstagram(true)
     }
 

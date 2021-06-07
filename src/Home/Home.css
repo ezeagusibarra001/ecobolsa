@@ -26,7 +26,7 @@
     height: auto;
     color: white;
     background-color: #009e00;
-    font-size: 40px;
+    font-size: 20px;
     padding: 0px 60px;
     border: transparent;
     border-radius: 50px;
@@ -39,7 +39,7 @@
 }
 @media screen and (max-width: 1000px){
     .ButtonC{
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 700px){

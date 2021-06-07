@@ -1,8 +1,6 @@
 import React,{useState,useEffect} from "react"
 import "./Home.css"
 
-
-
 function Econews(props) {
 
 

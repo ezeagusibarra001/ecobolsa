@@ -4,10 +4,10 @@ import Carrusel from "../Carrusel"
 import Banner from "./Banner"
 import Locales from "./Locales"
 import "./Comercios.css"
-
+import {useHome} from '../Context/home-context'
 
 function Comercio(props) {
-
+    const {comercioState, setComercioState} = useHome()
     const img1="../assets/Carrusel3.png"
     const img2="../assets/Carrusel2.png"
     const img4="../assets/Carrusel4.png"
@@ -22,6 +22,7 @@ function Comercio(props) {
                 instagram:"https://www.instagram.com/estudio.donada/?hl=es-la",
                 wp:"",
                 Img:"../assets/Centu.jpeg",
+                barrio: "boedo"
             },
             {
                 id: 1,
@@ -31,6 +32,7 @@ function Comercio(props) {
                 instagram:"https://www.instagram.com/centrodelmarmol/?hl=es-la",
                 wp:"",
                 Img:"../assets/Marmoles.png",
+                barrio: "almagro"
             },
             {
                 id: 2,
@@ -40,6 +42,7 @@ function Comercio(props) {
                 instagram:"Este Comercio Adherido no posee cuenta de Instagram",
                 wp:"",
                 Img:"../assets/Sun.png",
+                barrio: "monserrat"
             },
             {
                 id: 3,
@@ -49,6 +52,7 @@ function Comercio(props) {
                 instagram:"",
                 wp:"",
                 Img:"../assets/Rayuela.jpeg",
+                barrio: "deboto"
             },
             {
                 id: 4,
@@ -58,6 +62,7 @@ function Comercio(props) {
                 instagram:"",
                 wp:"",
                 Img:"../assets/Carrusel1.png",
+                barrio: "v_parque"
             },
             {
                 id: 5,
@@ -67,6 +72,7 @@ function Comercio(props) {
                 instagram:"",
                 wp:"",
                 Img:"../assets/Carrusel1.png",
+                barrio: "caballito"
             },
             {
                 id: 6,
@@ -76,6 +82,7 @@ function Comercio(props) {
                 instagram:"",
                 wp:"",
                 Img:"../assets/Carrusel1.png",
+                barrio: "palermo"
             },
             {
                 id: 7,
@@ -85,6 +92,7 @@ function Comercio(props) {
                 instagram:"",
                 wp:"",
                 Img:"../assets/Carrusel1.png",
+                barrio: "palermo"
             },
             {
                 id: 8,
@@ -94,6 +102,7 @@ function Comercio(props) {
                 instagram:"",
                 wp:"",
                 Img:"../assets/Carrusel1.png",
+                barrio: "palermo"
             },
         ]
   
@@ -103,9 +112,14 @@ function Comercio(props) {
         <div>
             <Layout>
                 <Carrusel img1={img1} img2={img2} img4={img4}/>
-                <Banner/>
+                <Banner
+                    comercioState={comercioState}
+                    setComercioState={setComercioState}
+                />
                 <div className="ContainerLocales">
-                    {locales.map(locales=><Locales data={locales}  />)}
+                    {comercioState === "todos"
+                    ? locales.map(locales=><Locales data={locales}/>)
+                    : locales.filter((local)=>local.barrio === comercioState).map(locales=><Locales data={locales}/>)}
                 </div>
             </Layout>
         </div>

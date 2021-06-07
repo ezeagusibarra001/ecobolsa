@@ -4,19 +4,20 @@ import "./Comercios.css"
 
 
 function Banner(props) {
-
+    const {setComercioState} = props;
 
     return(
         
         <div >
             <div className="ContainerBanner">
-                <div>  Boedo     </div>
-                <div>  Almagro   </div>
-                <div>  Monserrat </div>
-                <div>  Deboto    </div>
-                <div>  V.Parque  </div>
-                <div>  Caballito </div>
-                <div>  Palermo   </div>
+                <button onClick={()=>setComercioState("boedo")} className="hover">  Boedo     </button>
+                <button onClick={()=>setComercioState("almagro")} className="hover">  Almagro   </button>
+                <button onClick={()=>setComercioState("monserrat")} className="hover">  Monserrat </button>
+                <button onClick={()=>setComercioState("deboto")} className="hover">  Deboto    </button>
+                <button onClick={()=>setComercioState("v_parque")} className="hover">  V.Parque  </button>
+                <button onClick={()=>setComercioState("caballito")} className="hover">  Caballito </button>
+                <button onClick={()=>setComercioState("palermo")} className="hover">  Palermo   </button>
+                <button onClick={()=>setComercioState("todos")} className="hover">  Todos   </button>
             </div>     
         </div>
     )
