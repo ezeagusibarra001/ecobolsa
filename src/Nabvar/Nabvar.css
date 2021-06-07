@@ -26,6 +26,10 @@
     border-radius: 30px;
     padding: 10px;
 }
+.Icon:hover{
+    color: #009600 !important;
+    background-color: white !important;
+}
 /*--------------------------------------LOGO--------------------------------------*/
 .ContenedorLogo{
     width: 100%;

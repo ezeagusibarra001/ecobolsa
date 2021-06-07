@@ -12,8 +12,8 @@ function Personalizar(props) {
             className="Imgpersonalizar"
             src="../assets/Personalizar.png"
             />
-            <div className="ContenedorButtonE">
-            <button className="ButtonE"><b>¡PRESUPUESTO GRATIS!</b></button>
+            <div className="ContenedorButtonP">
+            <button className="ButtonP"><b>¡PRESUPUESTO SIN CARGO!</b></button>
             </div>
 
         </div>

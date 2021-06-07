@@ -6,6 +6,7 @@
     background-color: green;
     color: black;
     margin: auto;
+    position: relative;
 }
 .Carruselcontainer{
     width: 100%;
@@ -18,13 +19,14 @@
 }
 .ContenedorButton{
     height: auto;
+    position: absolute; top: 70%; left: -25% !important;
 }
 .ButtonC{
     width: auto;
     height: auto;
     color: white;
-    background-color: #009600;
-    font-size: 60px;
+    background-color: #009e00;
+    font-size: 40px;
     padding: 0px 60px;
     border: transparent;
     border-radius: 50px;
@@ -37,18 +39,21 @@
 }
 @media screen and (max-width: 1000px){
     .ButtonC{
-        font-size: 40px;
+        font-size: 30px;
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     .ButtonC{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
     .ButtonC{
-        font-size: 5px;
+        font-size: 10px;
         padding: 0px 20px;
+    }
+    .ContenedorButton{
+        position: absolute; top: 60%; left: -25% !important;
     }
 }
 /*------------------------------------VIDEO------------------------------------*/
@@ -67,22 +72,94 @@
     height: auto;
     width: 100%;
     background-color: #009e00;
+    position: relative;
 }
 .Imagen{
     display: block;
     height: auto;
     width: 100%;
+  
 }
 .ContenedorButtonE{
     width: 100%;
     height: auto;
+    position: absolute ; top: 90%;
 }
 .ContenedorButtonE{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
     grid-template-rows: 1fr 1fr;
 }
 .ButtonE{
+    border-radius: 40px;
+    background-color: white;
+    color: green;
+    border: solid transparent;
+
+    grid-column-start: 2;   
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 30px;
+}
+.ButtonE:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #009600;
+    border: solid white 2px;
+}
+@media screen and (max-width: 1000px){
+    
+    .ButtonE{
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+
+    .ContenedorButtonE{
+        width: 100%;
+        height: auto;
+        position: absolute ; top: 85%;
+    }
+}
+@media screen and (max-width: 500px){
+    .ButtonE{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:340px){
+    .ButtonE{
+        font-size: 5px;
+    }
+    .ContenedorButtonE{
+        width: 100%;
+        height: auto;
+        position: absolute ; top: 80%;
+    }
+}
+/*------------------------------------PERSONALIZAR------------------------------------*/
+.Personalizarfondo{
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color: rgb(124, 119, 119);
+    position: relative;
+}
+.Imgpersonalizar{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.ContenedorButtonP{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: absolute ; top: 70%;
+    width: 100%;
+    height: auto;
+}
+.ButtonP{
     border-radius: 40px;
     background-color: white;
     color: green;
@@ -97,51 +174,45 @@
     font-size: 30px;
     margin: 20px 0px;
 }
-.ButtonE:hover{
+.ButtonP:hover{
     cursor: pointer;
     color: white;
     background-color: #009600;
     border: solid white 2px;
 }
 @media screen and (max-width: 1000px){
-    .ContenedorButtonE{
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        height: 40px;
-    }
-    .ButtonE{
+    
+    .ButtonP{
         font-size: 15px;
         margin: 5px 0px;
     }
 }
-@media screen and (max-width: 600px){
-    .ContenedorButtonE{
+@media screen and (max-width: 500px){
+    .ContenedorButtonP{
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr 1fr;
-        height: 40px;
+        height: 30px;
+
+    }
+    .ButtonP{
+        font-size: 10px;
+        margin: 5px 0px;
     }
 }
-/*------------------------------------PERSONALIZAR------------------------------------*/
-.Personalizarfondo{
-    display: block;
-    height: auto;
-    width: 100%;
-    background-color: rgb(124, 119, 119);
-    margin: 0px 0px;
-   
+@media screen and (max-width: 300px){
+    .ContenedorButtonP{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 20px;
+
+    }
+    .ButtonP{
+        font-size: 5px;
+        margin: 5px 0px;
+    }
 }
-.Imgpersonalizar{
-    display: block;
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-}
-/*
-.ButtonP{
-    ----------------------------------LE PUSE LA CLASE DEL ButtonE------------------
-}*/
 /*------------------------------------ELEGIRNOS------------------------------------*/
 .Elegirnosfondo{
     display: block;

@@ -41,14 +41,13 @@ function Carrusel(props) {
                         alt="Second slide"
                         />
                     <Carousel.Caption className="ContenedorButton">
-                    <button  className="ButtonC" >CONOCÉ MÁS</button>
                     </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img
                         className="Carrusel"
-                        src={img4}
+                        src={img1}
                         alt="Third slide"
                     />
                     <Carousel.Caption className="ContenedorButton">

@@ -16,66 +16,84 @@ function Comercio(props) {
        const locales= [
             {
                 id: 0,
-                name: "Boedo",
+                name: "Donada & Asociados",
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                instagram:"https://www.instagram.com/francopetosa__/?hl=es-la",
+                instagramstate: true,
+                instagram:"https://www.instagram.com/estudio.donada/?hl=es-la",
                 wp:"",
+                Img:"../assets/Centu.jpeg",
             },
             {
                 id: 1,
-                name: "Almagro",
+                name: "CMC",
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                instagram:"",
-                wp:""
+                instagramstate: true,
+                instagram:"https://www.instagram.com/centrodelmarmol/?hl=es-la",
+                wp:"",
+                Img:"../assets/Marmoles.png",
             },
             {
                 id: 2,
-                name: "Monserrat",
+                name: "Sun Rental",
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                instagram:"",
-                wp:""
+                instagramstate: false,
+                instagram:"Este Comercio Adherido no posee cuenta de Instagram",
+                wp:"",
+                Img:"../assets/Sun.png",
             },
             {
                 id: 3,
-                name: "Deboto",
+                name: "Rayuela",
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                instagramstate:false,
                 instagram:"",
-                wp:""
+                wp:"",
+                Img:"../assets/Rayuela.jpeg",
             },
             {
                 id: 4,
                 name: "V.Parque",
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                instagramstate: true,
                 instagram:"",
-                wp:""
+                wp:"",
+                Img:"../assets/Carrusel1.png",
             },
             {
                 id: 5,
                 name: "Caballito",
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                instagramstate: true,
                 instagram:"",
-                wp:""
+                wp:"",
+                Img:"../assets/Carrusel1.png",
             },
             {
                 id: 6,
                 name: "Palermo",
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                instagramstate: true,
                 instagram:"",
-                wp:""
+                wp:"",
+                Img:"../assets/Carrusel1.png",
             },
             {
                 id: 7,
                 name: "Quilmes",
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                instagramstate: true,
                 instagram:"",
-                wp:""
+                wp:"",
+                Img:"../assets/Carrusel1.png",
             },
             {
                 id: 8,
                 name: "Libertilandia",
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                instagramstate: true,
                 instagram:"",
-                wp:""
+                wp:"",
+                Img:"../assets/Carrusel1.png",
             },
         ]
   

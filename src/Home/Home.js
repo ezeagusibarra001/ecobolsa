@@ -13,12 +13,10 @@ function Home(props) {
 
     const img1="../assets/Carrusel1.png"
     const img2="../assets/Carrusel2.png"
-    const img4="../assets/Carrusel4.png"
-    
     return(
         <div>
             <Layout>
-                <Carrusel img1={img1} img2={img2} img4={img4} />
+                <Carrusel img1={img1}  img2={img2} />
                 <Video/>
                 <Econews/>
                 <Personalizar/>
