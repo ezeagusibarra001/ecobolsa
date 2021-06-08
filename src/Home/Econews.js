@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from "react"
 import "./Home.css"
+import Button from 'react-bootstrap/Button'
 
 function Econews(props) {
 
@@ -16,7 +17,7 @@ function Econews(props) {
             </div>
             
             <div className="ContenedorButtonE">
-                <button className="ButtonE"> <b>CONOCÉ MÁS</b> </button>
+                <Button className="ButtonE" href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank" > <b>CONOCÉ MÁS</b> </Button>
             </div>    
 
         </div>

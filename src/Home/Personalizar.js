@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from "react"
 import "./Home.css"
-
+import Button from 'react-bootstrap/Button'
 
 function Personalizar(props) {
 
@@ -13,7 +13,7 @@ function Personalizar(props) {
             src="../assets/Personalizar.png"
             />
             <div className="ContenedorButtonP">
-            <button className="ButtonP"><b>¡PRESUPUESTO SIN CARGO!</b></button>
+            <Button className="ButtonP" href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank" ><b>¡PRESUPUESTO SIN CARGO!</b></Button>
             </div>
 
         </div>

@@ -91,29 +91,29 @@
     grid-template-rows: 1fr 1fr;
 }
 .ButtonE{
-    border-radius: 40px;
-    background-color: white;
-    color: green;
-    border: solid transparent;
+    border-radius: 40px !important;
+    background-color: white !important;
+    color: green !important;
+    border: solid transparent !important;
 
-    grid-column-start: 2;   
-    grid-column-end: 3;
+    grid-column-start: 2 !important;   
+    grid-column-end: 3 !important;
 
-    grid-row-start: 1;
-    grid-row-end: 3;
-    font-size: 30px;
+    grid-row-start: 1 !important;
+    grid-row-end: 3 !important;
+    font-size: 30px !important;
 }
 .ButtonE:hover{
-    cursor: pointer;
-    color: white;
-    background-color: #009600;
-    border: solid white 2px;
+    cursor: pointer !important;
+    color: white !important;
+    background-color: #009600 !important;
+    border: solid white 2px !important;
 }
 @media screen and (max-width: 1000px){
     
     .ButtonE{
-        font-size: 15px;
-        margin: 5px 0px;
+        font-size: 15px !important;
+        margin: 5px 0px !important;
     }
 
     .ContenedorButtonE{
@@ -124,13 +124,13 @@
 }
 @media screen and (max-width: 500px){
     .ButtonE{
-        font-size: 10px;
+        font-size: 10px !important;
     }
 }
 
 @media screen and (max-width:340px){
     .ButtonE{
-        font-size: 5px;
+        font-size: 5px !important;
     }
     .ContenedorButtonE{
         width: 100%;
@@ -160,31 +160,31 @@
     height: auto;
 }
 .ButtonP{
-    border-radius: 40px;
-    background-color: white;
-    color: green;
-    border: solid transparent;
+    border-radius: 40px !important;
+    background-color: white !important;
+    color: green !important;
+    border: solid transparent !important;
 
-    grid-column-start: 2;   
-    grid-column-end: 3;
+    grid-column-start: 2 !important;   
+    grid-column-end: 3 !important;
 
-    grid-row-start: 1;
-    grid-row-end: 3;
-    margin: 5px 0px;
-    font-size: 30px;
-    margin: 20px 0px;
+    grid-row-start: 1 !important;
+    grid-row-end: 3 !important;
+    margin: 5px 0px !important;
+    font-size: 30px !important;
+    margin: 20px 0px !important;
 }
 .ButtonP:hover{
-    cursor: pointer;
-    color: white;
-    background-color: #009600;
-    border: solid white 2px;
+    cursor: pointer !important;
+    color: white !important;
+    background-color: #009600 !important;
+    border: solid white 2px !important;
 }
 @media screen and (max-width: 1000px){
     
     .ButtonP{
-        font-size: 15px;
-        margin: 5px 0px;
+        font-size: 15px !important;
+        margin: 5px 0px !important;
     }
 }
 @media screen and (max-width: 500px){
@@ -196,8 +196,8 @@
 
     }
     .ButtonP{
-        font-size: 10px;
-        margin: 5px 0px;
+        font-size: 10px !important;
+        margin: 5px 0px !important;
     }
 }
 @media screen and (max-width: 300px){
@@ -209,8 +209,8 @@
 
     }
     .ButtonP{
-        font-size: 5px;
-        margin: 5px 0px;
+        font-size: 5px !important;
+        margin: 5px 0px !important;
     }
 }
 /*------------------------------------ELEGIRNOS------------------------------------*/
