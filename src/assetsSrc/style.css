@@ -14,8 +14,8 @@
 }
 .float:hover {
 	text-decoration: none;
-	color: #25d366;
-  	background-color:#fff;
+	color: #27d165;
+  	background-color:rgba(0, 255, 21, 0.288);
 }
 
 .my-float{
