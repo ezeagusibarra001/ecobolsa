@@ -13,7 +13,7 @@ function Personalizar(props) {
             src="../assets/Personalizar.png"
             />
             <div className="ContenedorButtonP">
-            <Button className="ButtonP" href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank" ><b>¡PRESUPUESTO SIN CARGO!</b></Button>
+            <Button className="ButtonP" href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank" > <b className="TextoP"> ¡PRESUPUESTO SIN CARGO! </b> </Button>
             </div>
 
         </div>

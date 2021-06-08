@@ -54,8 +54,6 @@
     grid-row-start: 1;
     grid-row-start: 2;
 
-  
-
     width: 100% !important;
     height: auto !important;
 }
@@ -101,6 +99,16 @@
         grid-row-start: 1 !important;
         grid-row-start: 2 !important;
 
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+      
+
+    }
+
+    .Logo{
+        width: 60%;
+        height: auto;
     }
 
     .ContenedorNavLink{
@@ -156,6 +164,11 @@
 
         .Navlink{
             font-size: 15px;
+        }
+
+        .Logo{
+            width: 80%;
+            height: auto;
         }
         
     }

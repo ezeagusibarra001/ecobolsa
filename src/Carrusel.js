@@ -31,7 +31,7 @@ function Carrusel(props) {
                         alt="First slide"
                     />
                     <Carousel.Caption className="ContenedorButton">
-                    <Button  className="ButtonC" href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank">CONOCÉ MÁS</Button>
+                    <Button  className="ButtonC" href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank"> <b> CONOCÉ MÁS </b></Button>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -52,9 +52,20 @@ function Carrusel(props) {
                         alt="Third slide"
                     />
                     <Carousel.Caption className="ContenedorButton">
-                    <Button  className="ButtonC" onClick={scrollservicios} href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank" >CONOCÉ MÁS</Button>
+                    <Button  className="ButtonC" onClick={scrollservicios} href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank" > <b> CONOCÉ MÁS </b> </Button>
                     </Carousel.Caption>
                 </Carousel.Item>
+
+                <Carousel.Item>
+                    <img
+                        className="Carrusel"
+                        src={img2}
+                        alt="Second slide"
+                        />
+                    <Carousel.Caption className="ContenedorButton">
+                    </Carousel.Caption>
+                </Carousel.Item>
+
 
             </Carousel>
 

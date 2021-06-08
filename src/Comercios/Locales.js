@@ -25,7 +25,9 @@ function Locales(props) {
 
 
                 <Card className="Card">
-                    <Card.Img variant="top" src={locales.Img} />
+                    <div className="CardImg">
+                    <Card.Img variant="top" src={locales.Img} className="Img"  />
+                    </div>
                     <Card.Body className="CardBody">
 
                         <Card.Title className="CardTittle"> <b> {locales.name} </b> </Card.Title>

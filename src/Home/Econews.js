@@ -17,7 +17,7 @@ function Econews(props) {
             </div>
             
             <div className="ContenedorButtonE">
-                <Button className="ButtonE" href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank" > <b>CONOCÉ MÁS</b> </Button>
+                <Button className="ButtonE" href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank" > <b className="TextoE">CONOCÉ MÁS</b> </Button>
             </div>    
 
         </div>

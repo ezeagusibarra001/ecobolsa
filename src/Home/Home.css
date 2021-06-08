@@ -25,7 +25,7 @@
     width: auto !important;
     height: auto !important;
     color: white !important;
-    background-color: #009e00 !important;
+    background-color: #59981a !important;
     font-size: 20px !important;
     padding: 0px 60px !important;
     border: transparent !important;
@@ -33,9 +33,9 @@
 }
 .ButtonC:hover{
     cursor: pointer !important;
-    color: #009600 !important;
+    color: #59981a !important;
     background-color: white !important;
-    border: solid #009600 !important;
+    border: solid #59981a !important;
 }
 @media screen and (max-width: 1000px){
     .ButtonC{
@@ -87,13 +87,13 @@
 }
 .ContenedorButtonE{
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1.5fr;
+    grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: 1fr 1fr;
 }
 .ButtonE{
     border-radius: 40px !important;
     background-color: white !important;
-    color: green !important;
+    color: #59981a !important;
     border: solid transparent !important;
 
     grid-column-start: 2 !important;   
@@ -102,42 +102,76 @@
     grid-row-start: 1 !important;
     grid-row-end: 3 !important;
     font-size: 30px !important;
+
+    box-shadow: 0 0 40px #000 !important;
 }
 .ButtonE:hover{
     cursor: pointer !important;
     color: white !important;
-    background-color: #009600 !important;
+    background-color: #59981a !important;
     border: solid white 2px !important;
 }
-@media screen and (max-width: 1000px){
-    
+.TextoE{
+    font-size: 1em !important;
+    text-align: center;
+}
+
+@media screen and (max-width:1150px){
+
+    .TextoE{
+        font-size: 1em !important;
+        text-align: center;
+    }
     .ButtonE{
+
+        font-size: 20px !important;
+    }
+
+}
+
+@media screen and (max-width:820px){
+
+    .TextoE{
+        font-size: 1em !important;
+        text-align: center;
+    }
+    .ButtonE{
+
+        box-shadow: 0 0 20px #000 !important;
         font-size: 15px !important;
-        margin: 5px 0px !important;
     }
 
-    .ContenedorButtonE{
-        width: 100%;
-        height: auto;
-        position: absolute ; top: 85%;
-    }
-}
-@media screen and (max-width: 500px){
-    .ButtonE{
-        font-size: 10px !important;
-    }
 }
 
-@media screen and (max-width:340px){
+@media screen and (max-width:650px){
+
+    .TextoE{
+        font-size: 1.5em !important;
+        text-align: center;
+    }
     .ButtonE{
+
         font-size: 5px !important;
     }
-    .ContenedorButtonE{
-        width: 100%;
-        height: auto;
-        position: absolute ; top: 80%;
-    }
+
 }
+@media screen and (max-width:400px){
+
+    .TextoE{
+        font-size: 2.5em !important;
+        text-align: center;
+    }
+    .ButtonE{
+
+        font-size: 2px !important;
+        height: 15px;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center;
+    }
+
+}
+
 /*------------------------------------PERSONALIZAR------------------------------------*/
 .Personalizarfondo{
     display: block;
@@ -153,66 +187,92 @@
 }
 .ContenedorButtonP{
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr !important;
+    grid-template-rows: auto auto !important;
     position: absolute ; top: 70%;
     width: 100%;
     height: auto;
+    
 }
 .ButtonP{
     border-radius: 40px !important;
     background-color: white !important;
-    color: green !important;
+    color: #59981a !important;
     border: solid transparent !important;
 
     grid-column-start: 2 !important;   
     grid-column-end: 3 !important;
 
     grid-row-start: 1 !important;
-    grid-row-end: 3 !important;
-    margin: 5px 0px !important;
-    font-size: 30px !important;
-    margin: 20px 0px !important;
+    grid-row-end: 2 !important; 
+
+    box-shadow: 0 0 40px #000 !important;
 }
+
 .ButtonP:hover{
     cursor: pointer !important;
     color: white !important;
-    background-color: #009600 !important;
+    background-color: #59981a !important;
     border: solid white 2px !important;
 }
-@media screen and (max-width: 1000px){
-    
-    .ButtonP{
-        font-size: 15px !important;
-        margin: 5px 0px !important;
-    }
+.TextoP{
+    font-size: 2em !important;
+    text-align: center;
 }
-@media screen and (max-width: 500px){
-    .ContenedorButtonP{
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        height: 30px;
+
+@media screen and (max-width:1400px){
+
+    .TextoP{
+        font-size: 1.5em !important;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:1050px){
+
+    .TextoP{
+        font-size: 1em !important;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:700px){
+
+    .TextoP{
+        font-size: 0.5em !important;
+        text-align: center;
+    }
+
+    .ButtonP{
+
+        height: 70%;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+}
+
+@media screen and (max-width:400px){
+
+    .TextoP{
+        font-size: 0.3em !important;
+        text-align: center;
+    }
+
+    .ButtonP{
+
+        height: 60%;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
 
     }
-    .ButtonP{
-        font-size: 10px !important;
-        margin: 5px 0px !important;
-    }
-}
-@media screen and (max-width: 300px){
-    .ContenedorButtonP{
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        height: 20px;
 
-    }
-    .ButtonP{
-        font-size: 5px !important;
-        margin: 5px 0px !important;
-    }
 }
+
 /*------------------------------------ELEGIRNOS------------------------------------*/
 .Elegirnosfondo{
     display: block;
