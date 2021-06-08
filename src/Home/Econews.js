@@ -12,7 +12,7 @@ function Econews(props) {
             <div className="ContenedorImagen">
                 <img 
                     className="Imagen" 
-                    src="../assets/Fondoeconews.png"
+                    src="../assets/Fondoeconews.jpg"
                 />
             </div>
             
