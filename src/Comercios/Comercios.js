@@ -20,7 +20,7 @@ function Comercio(props) {
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
                 instagramstate: true,
                 instagram:"https://www.instagram.com/estudio.donada/?hl=es-la",
-                wp:"",
+                wp:"https://api.whatsapp.com/send?phone=5491127759368",
                 Img:"../assets/Centu.jpeg",
                 barrio: "boedo"
             },
@@ -30,7 +30,7 @@ function Comercio(props) {
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
                 instagramstate: true,
                 instagram:"https://www.instagram.com/centrodelmarmol/?hl=es-la",
-                wp:"",
+                wp:"https://api.whatsapp.com/send?phone=54948635420",
                 Img:"../assets/Marmoles.png",
                 barrio: "almagro"
             },
@@ -40,7 +40,7 @@ function Comercio(props) {
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
                 instagramstate: false,
                 instagram:"Este Comercio Adherido no posee cuenta de Instagram",
-                wp:"",
+                wp:"https://api.whatsapp.com/send?phone=5491156071481",
                 Img:"../assets/Sun.png",
                 barrio: "monserrat"
             },
@@ -50,7 +50,7 @@ function Comercio(props) {
                 description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
                 instagramstate:false,
                 instagram:"",
-                wp:"",
+                wp:"https://api.whatsapp.com/send?phone=54948635420",
                 Img:"../assets/Rayuela.jpeg",
                 barrio: "deboto"
             },

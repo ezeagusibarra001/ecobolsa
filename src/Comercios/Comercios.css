@@ -28,17 +28,18 @@
 }
 /*----------------------------@MEDIA SCREEN BANNER LOCALES (RESPONSIVE DESING by Franco)----------------------------*/
 @media screen and (max-width: 1140px){
-    .ContainerBanner>div{
+    
+    .ContainerBanner{
 
-        height: 100px;
-        font-size: 30px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 }
-@media screen and (max-width: 800px){
-    .ContainerBanner>div{
+@media screen and (max-width: 600px){
+    .ContainerBanner{
 
-        height: 60px;
-        font-size: 20px;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 }
 @media screen and (max-width: 600px){

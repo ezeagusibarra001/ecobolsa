@@ -1,44 +1,63 @@
 /*--------------------------------------NAV-LINK--------------------------------------*/
 .NavContenedor{
-   
+    
     display: grid !important;
-    grid-template-columns: 1fr 1fr  !important;
-    grid-template-rows: auto auto !important;
+    grid-template-columns: 0.5fr 1.5fr 0.5fr 2fr  !important;
+    grid-template-rows: auto   !important;
+    box-shadow: 0 0 25px rgb(0,0,0) !important;
+    margin-bottom: 30px;
 }
 .ContenedorNavLink{
-    
-    grid-column-start: 2 !important;
-    grid-column-end: 3 !important;
-    grid-row-start: 1 !important;
-    grid-row-end: 1 !important;
+   
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    grid-row-start: 1;
+    grid-row-start: 2;
 
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+
+    height: 100%;
+    width: 100%;
 }
+
 .Navlink{
+
+    grid-column-start: 1 !important;
+    grid-column-end: 2 !important;
+
     color: black !important;
     font-size: 20px;
 }
+
+/*--------------------------------------ICON--------------------------------------*/
 .Icon{
+
     color: white !important;
-    background-color: #009600;
-    border-radius: 30px;
-    padding: 10px;
+    background-color: #009600 !important;
+    border-radius: 30px !important;
+    padding: 10px !important;
 }
 .Icon:hover{
     color: #009600 !important;
     background-color: white !important;
 }
-/*--------------------------------------LOGO--------------------------------------*/
+/*--------------------------------------------------------------------LOGO----------------------------------------------*/
 .ContenedorLogo{
-    width: 100%;
-    height: auto;
-    
-    grid-column-start: 1 !important;
-    grid-column-end: 2 !important;
-    grid-row-start: 1 !important;
-    grid-row-end: 1 !important;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-start: 2;
+
+  
+
+    width: 100% !important;
+    height: auto !important;
 }
 .Logo{
     width: 100%;
@@ -47,33 +66,100 @@
 
 
 
-/*--------------------------------------@MEDIA SCREEN--------------------------------------*/
+/*--------------------------------------@MEDIA SCREEN (Responsive desing by Franco)--------------------------------------*/
+
+
+@media screen and (max-width: 1300px){
+
+    .NavContenedor{
+   
+        display: grid !important;
+        grid-template-columns: 0.01fr 2fr 0.01fr 3fr  !important;
+        grid-template-rows: auto   !important;
+    }
+    
+}
+
 @media screen and (max-width: 1000px){
     .Icon{
         color:  #009600 !important;
-        background-color: white;
+        background-color: white !important;
     }
+
+    .NavContenedor{
+   
+        display: grid !important;
+        grid-template-columns: 1fr  !important;
+        grid-template-rows: auto  !important;
+    }
+
+    .ContenedorLogo{
+
+        grid-column-start: 1 !important;
+        grid-column-end: 2 !important;
+
+        grid-row-start: 1 !important;
+        grid-row-start: 2 !important;
+
+    }
+
+    .ContenedorNavLink{
+   
+
+        grid-column-start: 1 !important;
+        grid-column-end: 2 !important;
+
+        grid-row-start: 2 !important;
+        grid-row-start: 3 !important;
     
-/*--------------------------------------GRILLA--------------------------------------*/
-.ContenedorNavLink{
     
-    grid-column-start: 1 !important;
-    grid-column-end: 3 !important;
-    grid-row-start: 2 !important;
-    grid-row-end: 3 !important;
+    }
+
+    .Colapso{
+
+        display: grid !important;
+        grid-template-columns: 2fr 1fr  !important;
+        grid-template-rows: 1fr 1fr 1fr !important;
+    }
+    .Icon{
+
+        grid-column-start: 2 !important;
+        grid-column-end: 3 !important;
+
+        grid-row-start: 1 !important;
+        grid-row-end: 4 !important;
+
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+        border: solid;
+        height: 100px;
+        width: 100px;
+
+        border-radius: 50px !important;
+    }
+    .Icon:hover{
+        color: white !important;
+        background-color: #009600 !important;
+    }
+
+    @media screen and (max-width: 500px){
+
+        .Icon{
+
+            height: 70px;
+            width: 70px;
+    
+            border-radius: 50px !important;
+        }
+
+        .Navlink{
+            font-size: 15px;
+        }
+        
+    }
 
     
-}
-.ContenedorLogo{
-    
-    grid-column-start: 1 !important;
-    grid-column-end: 3 !important;
-    grid-row-start: 1 !important;
-    grid-row-end: 2 !important;
-}
-}
-@media screen and (max-width: 1200px){
-    .Navlink{
-        font-size: 100%;
-    }
+
 }

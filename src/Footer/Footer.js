@@ -32,7 +32,7 @@ function Footer(props) {
                 </div>
 
                 <div className="Leyendas">
-                <a className="Leyendamail" target="-blank" href="https://www.linkedin.com/in/franco-petosa-48b8b9206/"> ¡Contactanos! </a>
+                <a className="Leyendamail" target="-blank"  href="mailto:ezeagusibarra@gmail.com?Subject=Interesado%20en%20el%20producto">¡Contactanos!</a>
                 </div>
 
                 <div className="Texto2">
@@ -50,7 +50,7 @@ function Footer(props) {
                 </div>
 
                 <div className="Leyendas">
-                <a className="Leyendainstagram" target="-blank" href="https://www.linkedin.com/in/franco-petosa-48b8b9206/"> ¡Seguinos! </a>
+                <a className="Leyendainstagram" target="-blank" href="https://www.instagram.com/publicity_eco/?hl=es-la"> ¡Seguinos! </a>
                 </div>
 
                 <div className="Pibicreditos">
