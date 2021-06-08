@@ -2,6 +2,7 @@ import React,{useState,useEffect} from "react"
 import "./Home/Home.css"
 import Carousel from 'react-bootstrap/Carousel'
 import { scroller } from "react-scroll";
+import Button from 'react-bootstrap/Button'
 
 
 function Carrusel(props) {
@@ -30,7 +31,7 @@ function Carrusel(props) {
                         alt="First slide"
                     />
                     <Carousel.Caption className="ContenedorButton">
-                    <button  className="ButtonC">CONOCÉ MÁS</button>
+                    <Button  className="ButtonC" href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank">CONOCÉ MÁS</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -51,7 +52,7 @@ function Carrusel(props) {
                         alt="Third slide"
                     />
                     <Carousel.Caption className="ContenedorButton">
-                    <button  className="ButtonC" onClick={scrollservicios} >CONOCÉ MÁS</button>
+                    <Button  className="ButtonC" onClick={scrollservicios} href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank" >CONOCÉ MÁS</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
 

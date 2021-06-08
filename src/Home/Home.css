@@ -22,35 +22,35 @@
     position: absolute; top: 70%; left: -25% !important;
 }
 .ButtonC{
-    width: auto;
-    height: auto;
-    color: white;
-    background-color: #009e00;
-    font-size: 20px;
-    padding: 0px 60px;
-    border: transparent;
-    border-radius: 50px;
+    width: auto !important;
+    height: auto !important;
+    color: white !important;
+    background-color: #009e00 !important;
+    font-size: 20px !important;
+    padding: 0px 60px !important;
+    border: transparent !important;
+    border-radius: 50px !important;
 }
 .ButtonC:hover{
-    cursor: pointer;
-    color: #009600;
-    background-color: white;
-    border: solid #009600;
+    cursor: pointer !important;
+    color: #009600 !important;
+    background-color: white !important;
+    border: solid #009600 !important;
 }
 @media screen and (max-width: 1000px){
     .ButtonC{
-        font-size: 20px;
+        font-size: 20px !important;
     }
 }
 @media screen and (max-width: 700px){
     .ButtonC{
-        font-size: 15px;
+        font-size: 15px !important;
     }
 }
 @media screen and (max-width: 500px){
     .ButtonC{
-        font-size: 10px;
-        padding: 0px 20px;
+        font-size: 10px !important;
+        padding: 0px 20px !important;
     }
     .ContenedorButton{
         position: absolute; top: 60%; left: -25% !important;
