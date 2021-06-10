@@ -2,8 +2,6 @@ import React,{useState,useEffect} from "react"
 import "./Comercios.css"
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import Alert from 'react-bootstrap/Alert'
-import Modal from 'react-bootstrap/Modal'
 import Modals from "./Modals"
 
 
@@ -13,9 +11,6 @@ function Locales(props) {
     const locales=props.data
     const [AlerInstagram,setAlerInstagram]=useState(false)
     
-    const clickalert=()=>{
-        setAlerInstagram(true)
-    }
 
 /*----------------------------------------MODAL-----------------------------------------------*/
 
@@ -95,10 +90,7 @@ const [show, setShow] = useState(false);
                                 </svg>
                             </Button>
                         </div>
-                            {
-                                AlerInstagram &&
-                                <Alert variant="success" className="Alert" > <b>Solo whatsapp</b> </Alert>
-                            }
+                           
                         </>
                         }
 
