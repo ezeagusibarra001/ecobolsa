@@ -17,47 +17,47 @@ function Comercio(props) {
             {
                 id: 0,
                 name: "Donada & Asociados",
-                description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                description: "Abogados",
                 instagramstate: true,
                 instagram:"https://www.instagram.com/estudio.donada/?hl=es-la",
-                wp:"https://api.whatsapp.com/send?phone=5491127759368",
+                wp:"https://api.whatsapp.com/send?phone=5491127759368&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
                 Img:"../assets/Centu.jpeg",
                 barrio: "boedo"
             },
             {
                 id: 1,
                 name: "CMC",
-                description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                description: "Muebleria",
                 instagramstate: true,
                 instagram:"https://www.instagram.com/centrodelmarmol/?hl=es-la",
-                wp:"https://api.whatsapp.com/send?phone=54948635420",
+                wp:"https://api.whatsapp.com/send?phone=54948635420&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
                 Img:"../assets/Marmoles.png",
                 barrio: "almagro"
             },
             {
                 id: 2,
                 name: "Sun Rental",
-                description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                description: "Gazebos & Estufas Ext ",
                 instagramstate: false,
                 instagram:"Este Comercio Adherido no posee cuenta de Instagram",
-                wp:"https://api.whatsapp.com/send?phone=5491156071481",
+                wp:"https://api.whatsapp.com/send?phone=5491156071481&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
                 Img:"../assets/Sun.png",
                 barrio: "monserrat"
             },
             {
                 id: 3,
                 name: "Rayuela",
-                description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                description: "Libreria & Jugueteria ",
                 instagramstate:false,
                 instagram:"",
-                wp:"https://api.whatsapp.com/send?phone=54948635420",
+                wp:"https://api.whatsapp.com/send?phone=54948635420&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
                 Img:"../assets/Rayuela.jpeg",
-                barrio: "deboto"
+                barrio: "V.Devoto"
             },
             {
                 id: 4,
                 name: "V.Parque",
-                description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                description: "Some Examples",
                 instagramstate: true,
                 instagram:"",
                 wp:"",
@@ -67,7 +67,7 @@ function Comercio(props) {
             {
                 id: 5,
                 name: "Caballito",
-                description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                description: " Some Examples",
                 instagramstate: true,
                 instagram:"",
                 wp:"",
@@ -77,7 +77,7 @@ function Comercio(props) {
             {
                 id: 6,
                 name: "Palermo",
-                description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                description: "Some Examples",
                 instagramstate: true,
                 instagram:"",
                 wp:"",
@@ -87,7 +87,7 @@ function Comercio(props) {
             {
                 id: 7,
                 name: "Quilmes",
-                description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                description: "Some Examples",
                 instagramstate: true,
                 instagram:"",
                 wp:"",
@@ -97,7 +97,7 @@ function Comercio(props) {
             {
                 id: 8,
                 name: "Libertilandia",
-                description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                description: "Some Examples",
                 instagramstate: true,
                 instagram:"",
                 wp:"",

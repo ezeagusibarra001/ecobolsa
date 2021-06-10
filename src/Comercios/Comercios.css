@@ -66,13 +66,12 @@
     grid-template-rows: 1fr 1fr 1fr;
     height: auto;
     width: 100%;
-    margin: 10px 0px;
 }
 .Card{
 
     display: grid !important;
     grid-template-columns: 1fr !important;
-    grid-template-rows: 1fr 1fr !important;
+    grid-template-rows: 0.8fr 0.8fr !important;
     width: 100% !important;
     height: auto !important;
     box-shadow: 0 0 6px rgb(0,0,0);
@@ -104,7 +103,7 @@
 
     display: grid !important;
     grid-template-columns: 4fr 1fr 1fr 4fr !important;
-    grid-template-rows: 1fr 1fr 1fr !important;
+    grid-template-rows: 1fr 0.5fr 1fr 1fr !important;
 
     grid-gap: 15px;
 }
@@ -120,15 +119,31 @@
     align-items: center;
     justify-content: center;
 
-    font-size: 30px !important;
+    font-size: 35px !important;
+}
+.CardText{
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: monospace;
+    font-size: 1.5em;
+
 }
 .ContenedorWp{
 
     grid-column-start: 3;
     grid-column-end: 4;
 
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 
     display: flex !important;
     align-items: center !important;
@@ -156,8 +171,8 @@
     grid-column-start: 2;
     grid-column-end: 3;
 
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 
     display: flex !important;
     align-items: center !important;
@@ -213,6 +228,7 @@
 
     }
 
+
 }
 @media screen and (max-width: 800px){
     .ContainerLocales{
@@ -234,7 +250,7 @@
     .Card{
 
         grid-template-columns: 1fr !important;
-        grid-template-rows: 1fr 1fr !important;
+        grid-template-rows: 1fr 0.7fr !important;
 
     }
 
@@ -242,12 +258,12 @@
 
         display: flex !important;
         justify-content: center !important;
-        align-items: center !important;
+        align-items: flex-end !important;
 
     }
 
     .Img{
-        width: 70% !important;
+        width: 100% !important;
         height: auto !important;
     }
 }
@@ -255,14 +271,21 @@
 @media screen and (max-width: 600px){
     
     .ButtonInstagram{
-        width: 60px !important;
-        height: 60px !important;
+        width: 85px !important;
+        height: 85px !important;
         border-radius: 60px !important;
     }
     .ButtonWp{
-        width: 60px !important;
-        height: 60px !important;
+        width: 85px !important;
+        height: 85px !important;
         border-radius: 60px !important;
+    }
+
+    .Card{
+
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 0.3fr 0.8fr !important;
+
     }
 
 }
@@ -270,31 +293,66 @@
 @media screen and (max-width: 500px){
     
     .ButtonInstagram{
-        width: 50px !important;
-        height: 50px !important;
+        width: 60px !important;
+        height: 60px !important;
         border-radius: 60px !important;
     }
     .ButtonWp{
-        width: 50px !important;
-        height: 50px !important;
+        width: 60px !important;
+        height: 60px !important;
         border-radius: 60px !important;
     }
 
     .CardTittle{
-        font-size: 20px !important;
+        font-size: 25px !important;
     }
 
     .Card{
 
         grid-template-columns: 1fr !important;
-        grid-template-rows: 1fr 0.8fr !important;
+        grid-template-rows: 0.3fr 0.8fr !important;
 
+    }
+
+    .CardImg{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     .Img{
-        width: 90% !important;
+        width: 100% !important;
         height: auto !important;
     }
 
+}
 
+.ButtonModal{
+
+    background-color: white !important;
+    border: solid #59981a 2px !important;
+    color: #59981a !important;
+    border-radius: 70px !important;
+}
+
+.ButtonModal:hover{
+
+    background-color: #59981a !important;
+    border: solid #59981a 2px !important;
+    color: white !important;
+}
+
+
+@media screen and (max-width: 400px){
+
+    .Card{
+
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 0.3fr 0.8fr !important;
+
+    }
+
+    .CardTittle{
+        font-size: 30px !important;
+    }
 }

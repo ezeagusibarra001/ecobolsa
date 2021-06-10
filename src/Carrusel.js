@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from "react"
 import "./Home/Home.css"
 import Carousel from 'react-bootstrap/Carousel'
-import { scroller } from "react-scroll";
 import Button from 'react-bootstrap/Button'
 import {useHistory} from "react-router-dom"
 
@@ -34,7 +33,7 @@ function Carrusel(props) {
                         alt="First slide"
                     />
                     <Carousel.Caption className="ContenedorButton1">
-                    <Button  className="ButtonC1" href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank"> <b> CONOCÉ MÁS </b> </Button>
+                    <Button  className="ButtonC1" href="https://api.whatsapp.com/send?phone=5491130030029" target="_blank"> <b> CONOCÉ MÁS </b> </Button>
                     </Carousel.Caption>
                 </Carousel.Item>
 

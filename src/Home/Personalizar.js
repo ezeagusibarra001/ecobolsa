@@ -1,10 +1,17 @@
 import React,{useState,useEffect} from "react"
 import "./Home.css"
 import Button from 'react-bootstrap/Button'
+import ButtonsHome from "../Buttons/ButtonsHome"
 
 function Personalizar(props) {
 
 
+    const Buttons={
+        text:"¡PRESUPUESTO SIN CARGO!",
+        stylecss1:"ButtonP",
+        stylecss2:"TextoP",
+        contenedor:"ContenedorButtonP",
+    }
     return(
         
         <div className="Personalizarfondo">
@@ -12,9 +19,9 @@ function Personalizar(props) {
             className="Imgpersonalizar"
             src="../assets/Personalizar.png"
             />
-            <div className="ContenedorButtonP">
-            <Button className="ButtonP" href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank" > <b className="TextoP"> ¡PRESUPUESTO SIN CARGO! </b> </Button>
-            </div>
+           
+            <ButtonsHome Buttons={Buttons}/>
+        
 
         </div>
     )

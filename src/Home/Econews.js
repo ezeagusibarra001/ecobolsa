@@ -1,10 +1,19 @@
 import React,{useState,useEffect} from "react"
 import "./Home.css"
-import Button from 'react-bootstrap/Button'
+import ButtonsHome from "../Buttons/ButtonsHome"
+
 
 function Econews(props) {
 
-
+    
+/*--------------------------------------------LE PASAMOS CARACTERISTICAS DEL BUTTON A TRAVES DE LAS PROPS--------------------------------------------*/
+    const Buttons={
+            text:"CONOCÉ MÁS",
+            stylecss1:"ButtonE",
+            stylecss2:"TextoE",
+            contenedor:"ContenedorButtonE",
+        }
+    
     return(
         
         <div className="Fondoeconews" id="Econews">
@@ -16,9 +25,9 @@ function Econews(props) {
                 />
             </div>
             
-            <div className="ContenedorButtonE">
-                <Button className="ButtonE" href="https://api.whatsapp.com/send?phone=5491130784202" target="_blank" > <b className="TextoE">CONOCÉ MÁS</b> </Button>
-            </div>    
+           
+                <ButtonsHome Buttons={Buttons} />
+                
 
         </div>
     )
