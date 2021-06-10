@@ -32,7 +32,7 @@ function Footer(props) {
                 </div>
 
                 <div className="Leyendas">
-                <a className="Leyendamail" target="-blank"  href="mailto:ezeagusibarra@gmail.com?Subject=Interesado%20en%20el%20producto">¡Contactanos!</a>
+                <a className="Leyendamail" target="-blank"  href="mailto:holapublicityok@gmail.com?Subject=Consulta%20Eco-Publicity%20Web">¡Contactanos!</a>
                 </div>
 
                 <div className="Texto2">

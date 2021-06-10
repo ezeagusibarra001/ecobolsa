@@ -192,7 +192,7 @@
 }
 @media screen and (max-width: 520px){
     .Leyenda1 , .Leyenda2{
-        font-size: 0.10em;
+        font-size: 11px;
         margin: 0px;
     }
     .Iconos{
@@ -210,7 +210,7 @@
 
 @media screen and (max-width: 520px){
     .Leyenda1 , .Leyenda2{
-        font-size: 0.10em;
+        font-size: 11px;
         margin: 0px;
     }
     .Iconos{
@@ -227,14 +227,13 @@
     .Contenedor{
         grid-gap: 5px;
     }
-    
 
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 400px){
 
     .Leyenda1 , .Leyenda2{
-        font-size: 0.08em;
+        font-size: 7px;
         margin: 0px;
     }
     .Leyendamail , .Leyendainstagram{

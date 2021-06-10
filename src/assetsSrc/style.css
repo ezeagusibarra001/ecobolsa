@@ -1,3 +1,9 @@
+@media screen and (max-width: 500px){
+	.float{
+		display: none;
+	}
+}
+
 .float{
 	position:fixed;
 	width:55px;

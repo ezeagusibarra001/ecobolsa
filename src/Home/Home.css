@@ -133,15 +133,40 @@
 }
 
 /*------------------------------------VIDEO------------------------------------*/
+@media screen and (min-width: 601px){
+    .reallyVideo{
+        height: 315px ;
+        width: 560px;
+    }
+}
+@media screen and (max-width: 600px){
+    .reallyVideo{
+        height: 200px ;
+        width: 400px;
+    }
+}
+@media screen and (max-width: 400px){
+    .reallyVideo{
+        height: 150px ;
+        width: 300px;
+    }
+    .Video{
+        height: 250px !important;
+        padding-top: 45px !important;
+    }
+}
+
 .Video{
     display: block;
-    height: 200px;
-    width: 100%;
-    background-color: white;
-    border: solid black;
-    color: black;
     text-align: center;
+    display: block;
+    padding: 70px 0px;
+    height: auto;
+    width: 100%;
+    background-image: url("../assetsSrc/Footer.png");
+    border: solid transparent;
 }
+
 /*------------------------------------ECONEWS------------------------------------*/
 .Fondoeconews{
     display: block;

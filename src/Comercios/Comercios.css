@@ -63,7 +63,7 @@
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
     height: auto;
     width: 100%;
 }
@@ -75,7 +75,7 @@
     width: 100% !important;
     height: auto !important;
     box-shadow: 0 0 6px rgb(0,0,0);
-
+    margin-bottom: 20px;
 }
 .CardImg{
 
@@ -217,7 +217,7 @@
     .ContainerLocales{
 
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
       
     }
 
@@ -225,7 +225,7 @@
 
         grid-template-columns: 1fr !important;
         grid-template-rows: 1fr 0.8fr !important;
-
+        margin-bottom: 20px;
     }
 
 
@@ -234,7 +234,7 @@
     .ContainerLocales{
 
         grid-template-columns: 1fr ;
-        grid-template-rows: 1fr 1fr 1fr ;
+        grid-template-rows: auto auto auto ;
     }
     .ButtonInstagram{
         width: 100px !important;
@@ -251,7 +251,7 @@
 
         grid-template-columns: 1fr !important;
         grid-template-rows: 1fr 0.7fr !important;
-
+        margin-bottom: 20px;
     }
 
     .CardImg{
@@ -285,7 +285,7 @@
 
         grid-template-columns: 1fr !important;
         grid-template-rows: 0.3fr 0.8fr !important;
-
+        margin-bottom: 20px;
     }
 
 }
@@ -311,7 +311,7 @@
 
         grid-template-columns: 1fr !important;
         grid-template-rows: 0.3fr 0.8fr !important;
-
+        margin-bottom: 20px;
     }
 
     .CardImg{
@@ -349,6 +349,7 @@
 
         grid-template-columns: 1fr !important;
         grid-template-rows: 0.3fr 0.8fr !important;
+        margin-bottom: 20px;
 
     }
 
