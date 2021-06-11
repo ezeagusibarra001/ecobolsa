@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react"
+import React from "react"
 import "./Footer.css"
 import Button from 'react-bootstrap/Button'
 
@@ -13,6 +13,7 @@ function Footer(props) {
 
                 <div className="Logo">
                     <img 
+                        alt="imagen"
                         className="Imagenlogo"
                         src="../assets/Logoblanco.png"
                     />
@@ -58,7 +59,7 @@ function Footer(props) {
                 </div>
 
                 <div className="Pibicreditos">
-                    <p className="Pibitexto">PubliCity 2021 | Sitio Web por <a target="_blank" href="https://www.instagram.com/pibi.agencia/?hl=es-la" className="Pibicreditos"><b>Pibi Agencia</b></a></p>
+                    <p className="Pibitexto">PubliCity 2021 | Sitio Web por <a target="_blank" rel="noreferrer" href="https://www.instagram.com/pibi.agencia/?hl=es-la" className="Pibicreditos"><b>Pibi Agencia</b></a></p>
                 </div>
             </div>
         </div>

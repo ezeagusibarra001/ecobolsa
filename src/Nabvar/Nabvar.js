@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react"
+import React from "react"
 import "./Nabvar.css"
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
@@ -27,7 +27,7 @@ function Nabvar() {
     return(
         <div>
             <Navbar  expand="lg" className="NavContenedor">
-                <Navbar.Brand href="/" className="ContenedorLogo"> <img src="../assets/Logo.png" className="Logo"/> </Navbar.Brand>
+                <Navbar.Brand href="/" className="ContenedorLogo"> <img src="../assets/Logo.png" alt="imagen" className="Logo"/> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <div className="ContenedorNavLink">
 

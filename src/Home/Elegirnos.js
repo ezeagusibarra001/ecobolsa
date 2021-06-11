@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react"
+import React from "react"
 import "./Home.css"
 
 
@@ -9,6 +9,7 @@ function Elegirnos(props) {
         
         <div className="Elegirnosfondo">
             <img
+            alt="imagen"
             className="Imgelegirnos"
             src="../assets/Elegirnos.png"
             />

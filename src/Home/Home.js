@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from "react"
+import React from "react"
 import Layout from "../Layout";
 import Carrusel from "../Carrusel"
 import Video from "./Video"

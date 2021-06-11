@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react"
+import React,{useState} from "react"
 import "./Comercios.css"
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
@@ -9,7 +9,6 @@ import Modals from "./Modals"
 function Locales(props) {
 
     const locales=props.data
-    const [AlerInstagram,setAlerInstagram]=useState(false)
     
 
 /*----------------------------------------MODAL-----------------------------------------------*/

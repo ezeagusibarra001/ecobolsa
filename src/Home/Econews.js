@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react"
+import React from "react"
 import "./Home.css"
 import ButtonsHome from "../Buttons/ButtonsHome"
 
@@ -20,6 +20,7 @@ function Econews(props) {
 
             <div className="ContenedorImagen">
                 <img 
+                    alt="imagen"
                     className="Imagen" 
                     src="../assets/Fondoeconews.jpg"
                 />

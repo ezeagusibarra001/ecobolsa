@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react"
+import React from "react"
 import "./Home/Home.css"
 import Carousel from 'react-bootstrap/Carousel'
 import Button from 'react-bootstrap/Button'

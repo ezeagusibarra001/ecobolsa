@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react"
+import React from "react"
 import Layout from "../Layout";
 import Banner from "./Banner"
 import Locales from "./Locales"
@@ -113,7 +113,7 @@ function Comercio(props) {
             <Layout>
 
                 <img 
-
+                alt="imagen"
                 className="ImgComercios"
                 src="../assets/Carrusel2.png"
                 />

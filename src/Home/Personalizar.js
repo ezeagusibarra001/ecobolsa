@@ -1,8 +1,8 @@
-import React,{useState,useEffect} from "react"
+import React from "react"
 import "./Home.css"
 import ButtonsHome from "../Buttons/ButtonsHome"
 
-function Personalizar(props) {
+function Personalizar() {
 
 
     const Buttons={
@@ -15,6 +15,7 @@ function Personalizar(props) {
         
         <div className="Personalizarfondo">
             <img 
+            alt="imagen"
             className="Imgpersonalizar"
             src="../assets/Personalizar.png"
             />

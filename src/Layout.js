@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react"
+import React from "react"
 import Nabvar from "./Nabvar/Nabvar"
 import Footer from "./Footer/Footer"
 import Wpp from "./assetsSrc/Wpp";
