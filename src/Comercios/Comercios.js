@@ -25,7 +25,7 @@ function Comercio(props) {
             {
                 id: 1,
                 name: "CMC",
-                description: "Muebleria",
+                description: "Marmolería",
                 instagramstate: true,
                 instagram:"https://www.instagram.com/centrodelmarmol/?hl=es-la",
                 wp:"https://api.whatsapp.com/send?phone=54948635420&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
