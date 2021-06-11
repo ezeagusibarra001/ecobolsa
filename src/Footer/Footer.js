@@ -19,7 +19,7 @@ function Footer(props) {
                 <div className="Texto1">
 
                     <p className="Leyenda1">
-                        Somos una empresa de publicidad innivadora que utiliza medio ecologicos de difusion
+                        Somos una empresa de publicidad innovadora que utiliza medios ecologicos de difusión
                     </p>
                     
                 </div>
