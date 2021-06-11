@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from "react"
 import Layout from "../Layout";
-import Carrusel from "../Carrusel"
 import Banner from "./Banner"
 import Locales from "./Locales"
 import "./Comercios.css"
@@ -8,21 +7,20 @@ import {useHome} from '../Context/home-context'
 
 function Comercio(props) {
     const {comercioState, setComercioState} = useHome()
-    const img1="../assets/Carrusel3.png"
-    const img2="../assets/Carrusel2.png"
-    const img4="../assets/Carrusel4.png"
+
+  
     
     
        const locales= [
             {
                 id: 0,
-                name: "Donada & Asociados",
+                name: "Donada & Asoc",
                 description: "Abogados",
                 instagramstate: true,
                 instagram:"https://www.instagram.com/estudio.donada/?hl=es-la",
                 wp:"https://api.whatsapp.com/send?phone=5491127759368&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
-                Img:"../assets/Centu.jpeg",
-                barrio: "boedo"
+                Img:"../assets/Centu.png",
+                barrio: "Microcentro"
             },
             {
                 id: 1,
@@ -32,7 +30,7 @@ function Comercio(props) {
                 instagram:"https://www.instagram.com/centrodelmarmol/?hl=es-la",
                 wp:"https://api.whatsapp.com/send?phone=54948635420&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
                 Img:"../assets/Marmoles.png",
-                barrio: "almagro"
+                barrio: "palermo"
             },
             {
                 id: 2,
@@ -42,7 +40,7 @@ function Comercio(props) {
                 instagram:"Este Comercio Adherido no posee cuenta de Instagram",
                 wp:"https://api.whatsapp.com/send?phone=5491156071481&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
                 Img:"../assets/Sun.png",
-                barrio: "monserrat"
+                barrio: "P.Patricios"
             },
             {
                 id: 3,
@@ -51,9 +49,10 @@ function Comercio(props) {
                 instagramstate:false,
                 instagram:"",
                 wp:"https://api.whatsapp.com/send?phone=54948635420&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
-                Img:"../assets/Rayuela.jpeg",
-                barrio: "V.Devoto"
+                Img:"../assets/Rayuela.png",
+                barrio: "almagro"
             },
+            /*
             {
                 id: 4,
                 name: "V.Parque",
@@ -104,6 +103,7 @@ function Comercio(props) {
                 Img:"../assets/Carrusel1.png",
                 barrio: "palermo"
             },
+            */
         ]
   
     
@@ -111,7 +111,12 @@ function Comercio(props) {
     return(
         <div>
             <Layout>
-                <Carrusel img1={img1} img2={img2} img4={img4}/>
+
+                <img 
+
+                className="ImgComercios"
+                src="../assets/Carrusel2.png"
+                />
                 <Banner
                     comercioState={comercioState}
                     setComercioState={setComercioState}

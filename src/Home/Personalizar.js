@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from "react"
 import "./Home.css"
-import Button from 'react-bootstrap/Button'
 import ButtonsHome from "../Buttons/ButtonsHome"
 
 function Personalizar(props) {
