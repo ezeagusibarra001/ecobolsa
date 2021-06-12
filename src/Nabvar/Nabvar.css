@@ -30,7 +30,7 @@
     grid-column-end: 2 !important;
 
     color: black !important;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /*--------------------------------------ICON--------------------------------------*/
@@ -142,8 +142,8 @@
         align-items: center !important;
 
         border: solid;
-        height: 100px;
-        width: 100px;
+        height: 60px;
+        width: 60px;
 
         border-radius: 50px !important;
     }

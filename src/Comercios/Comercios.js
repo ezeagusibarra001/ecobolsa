@@ -46,8 +46,8 @@ function Comercio(props) {
                 id: 3,
                 name: "Rayuela",
                 description: "Libreria & Jugueteria ",
-                instagramstate:false,
-                instagram:"",
+                instagramstate:true,
+                instagram:"https://www.instagram.com/ciudadrayuelaok/?hl=es-la",
                 wp:"https://api.whatsapp.com/send?phone=54948635420&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
                 Img:"../assets/Rayuela.png",
                 barrio: "almagro"

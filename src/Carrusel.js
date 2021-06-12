@@ -44,7 +44,7 @@ function Carrusel(props) {
                         alt="Second slide"
                         />
                     <Carousel.Caption className="ContenedorButton2" >
-                        <Button  className="ButtonC2" onClick={clickcomercios}> <b> COMERCIOS ADHERIDOS </b> </Button>
+                        <Button  className="ButtonC2" onClick={clickcomercios}> <b> VER COMERCIOS  </b> </Button>
                     </Carousel.Caption>
                 </Carousel.Item>
 

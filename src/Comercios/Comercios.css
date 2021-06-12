@@ -240,12 +240,16 @@
 @media screen and (max-width: 800px){
 
     .CardTittle{
-        font-size: 30px;
+        font-size: 30px !important;
     }
 
     .CardText{
 
         font-size: 20px !important;
+    }
+
+    .ContainerCard{
+        margin: 0% 5%;
     }
 }
 
@@ -264,6 +268,10 @@
     .CardBody{
 
         grid-gap:10px !important;
+    }
+
+    .ContainerCard{
+        margin: 0% 0%;
     }
    
 }
