@@ -5,7 +5,7 @@
     grid-template-columns: 0.5fr 1.5fr 0.5fr 2fr  !important;
     grid-template-rows: auto   !important;
     box-shadow: 0 0 25px rgb(0,0,0) !important;
-    margin-bottom: 30px;
+    margin-bottom: 1%;
 }
 .ContenedorNavLink{
    

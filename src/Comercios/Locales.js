@@ -34,7 +34,7 @@ const [show, setShow] = useState(false);
 
         <div >
 
-            <div>
+            <div className="ContainerCard">
 
 
                 <Card className="Card">

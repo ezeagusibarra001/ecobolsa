@@ -16,7 +16,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    margin-bottom: 100px;
+    margin-bottom: 2%;
 }
 .ContainerBanner>button{
 
@@ -25,8 +25,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 125px;
-    font-size: 30px;
+    height: 100px;
+    font-size: 25px;
     border: none;    
 }
 
@@ -70,11 +70,14 @@
 .ContainerLocales{
     
     display: grid;
-    grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     height: auto;
     width: 100%;
+}
+
+.ContainerCard{
+    margin: 0% 10%;
 }
 .Card{
 
@@ -84,7 +87,7 @@
     width: 100% !important;
     height: auto !important;
     box-shadow: 0 0 6px rgb(0,0,0);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .CardImg{
 
@@ -101,8 +104,6 @@
 
     height: auto !important;
     width: 100% !important;
-
-    
 }
 
 .CardBody{
