@@ -18,7 +18,7 @@ function Comercio(props) {
                 description: "Abogados",
                 instagramstate: true,
                 instagram:"https://www.instagram.com/estudio.donada/?hl=es-la",
-                wp:"https://api.whatsapp.com/send?phone=5491127759368&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
+                wp:"https://api.whatsapp.com/send?phone=5491127759368&text=Hola! Los vi en Publi-City y me interesa tener mas informacion acerca de ustedes!",
                 Img:"../assets/Centu.png",
                 barrio: "Microcentro"
             },
@@ -28,7 +28,7 @@ function Comercio(props) {
                 description: "Marmolería",
                 instagramstate: true,
                 instagram:"https://www.instagram.com/centrodelmarmol/?hl=es-la",
-                wp:"https://api.whatsapp.com/send?phone=54948635420&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
+                wp:"https://api.whatsapp.com/send?phone=54948635420&text=Hola! Los vi en Publi-City y me interesa tener mas informacion acerca de ustedes!",
                 Img:"../assets/Marmoles.png",
                 barrio: "palermo"
             },
@@ -38,7 +38,7 @@ function Comercio(props) {
                 description: "Gazebos & Estufas Ext ",
                 instagramstate: false,
                 instagram:"Este Comercio Adherido no posee cuenta de Instagram",
-                wp:"https://api.whatsapp.com/send?phone=5491156071481&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
+                wp:"https://api.whatsapp.com/send?phone=5491156071481&text=Hola! Los vi en Publi-City y me interesa tener mas informacion acerca de ustedes!",
                 Img:"../assets/Sun.png",
                 barrio: "P.Patricios"
             },
@@ -48,7 +48,7 @@ function Comercio(props) {
                 description: "Libreria & Jugueteria ",
                 instagramstate:true,
                 instagram:"https://www.instagram.com/ciudadrayuelaok/?hl=es-la",
-                wp:"https://api.whatsapp.com/send?phone=54948635420&text=Hola! Me contacto desde la página de Eco Publicity y me interesa tener mas informacion acerca de su ustedes!",
+                wp:"https://api.whatsapp.com/send?phone=54948635420&text=Hola! Los vi en Publi-City y me interesa tener mas informacion acerca de ustedes!",
                 Img:"../assets/Rayuela.png",
                 barrio: "almagro"
             },
