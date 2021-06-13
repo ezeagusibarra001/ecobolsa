@@ -28,7 +28,7 @@ function Comercio(props) {
                 description: "Marmolería",
                 instagramstate: true,
                 instagram:"https://www.instagram.com/centrodelmarmol/?hl=es-la",
-                wp:"https://api.whatsapp.com/send?phone=54948635420&text=Hola! Los vi en Publi-City y me interesa tener mas informacion acerca de ustedes!",
+                wp:"https://api.whatsapp.com/send?phone=5491150206254&text=Hola! Los vi en Publi-City y me interesa tener mas informacion acerca de ustedes!",
                 Img:"../assets/Marmoles.png",
                 barrio: "palermo"
             },
