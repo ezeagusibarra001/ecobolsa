@@ -115,7 +115,7 @@ function Comercio(props) {
                 <img 
                 alt="imagen"
                 className="ImgComercios"
-                src="../assets/Carrusel2.png"
+                src="../assets/Portada.png"
                 />
                 <Banner
                     comercioState={comercioState}

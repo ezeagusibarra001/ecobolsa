@@ -186,6 +186,10 @@
     border:  #009600 !important;
 }
 
+.disabled{
+    color: grey !important;
+}
+
 .ContenedorInstagram{
 
     grid-column-start: 2;
