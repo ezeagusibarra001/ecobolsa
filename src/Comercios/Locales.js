@@ -13,6 +13,8 @@ function Locales(props) {
 
 /*----------------------------------------MODAL-----------------------------------------------*/
 
+
+
 const [show, setShow] = useState(false);
 
   const handleClose = () =>{
@@ -25,6 +27,9 @@ const [show, setShow] = useState(false);
       setShow(true)
 
     }
+
+
+
 
 /*----------------------------------------------------------------------------------------------*/
 
