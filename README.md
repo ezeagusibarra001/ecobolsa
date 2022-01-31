@@ -1,6 +1,7 @@
 # Publi City
 
-This website was created for a microenterprise whose purpose was to replace the use of plastic bags in nearby businesses in the neighborhoods of Poryteños with ecological bags.
+This website was created for a  microenterprise whose purpose was to replace the use
+            of plastic bags in nearby businesses with ecological bags.
 
 React JS was used for the front and did not require the use of back since it was specified at the time of raising the budget that it had to be basic, therefore the adhered businesses were inserted with an array of objects from the front for mapping and rendering .
 
