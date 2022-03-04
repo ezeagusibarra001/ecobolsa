@@ -27,7 +27,7 @@ function Nabvar() {
     return(
         <div>
             <Navbar  expand="lg" className="NavContenedor">
-                <Navbar.Brand href="/" className="ContenedorLogo"> <img src="../assets/Logo.png" alt="imagen" className="Logo"/> </Navbar.Brand>
+                <Navbar.Brand href="/" className="ContenedorLogo"> <img src="../assets/logo.png" alt="imagen" className="Logo"/> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <div className="ContenedorNavLink">
 
