@@ -1,0 +1,276 @@
+.Footerfondo{
+    display: block;
+    height: auto;
+    width: 100%;
+    background-image: url("../assetsSrc/Footer.png");
+    border: solid transparent;
+}
+
+/*----------------------------PROPIEDADES CONTENEDOR PADRE E HIJOS----------------------------*/
+.Contenedor{
+    width: 80%;
+    height: auto;
+    margin: 20px 10%;
+}
+.Contenedor>div{
+    
+    text-align: center;
+    font-size: 60px;
+    
+}
+/*----------------------------GRID CONTENEDOR PADRE----------------------------*/
+.Contenedor{
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    grid-template-rows: auto auto auto ;
+    grid-gap:5px;
+}
+/*----------------------------GRID LOGO----------------------------*/
+.Contenedor .Logo{
+    background-color: transparent;
+    color: white;
+    margin: auto;
+    /*Le estoy diciendo que ocupe solo la Columna 1*/
+    grid-column-start: 1;   
+    grid-column-end: 1;
+    /*Le estoy diciendo que ocupe la Fila 1 y la Fila 2*/
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: auto;
+}
+.Imagenlogo{
+    width: 100%;
+    height:auto;
+    display: block;
+}
+/*----------------------------GRID PIBI CREDITOS----------------------------*/
+.Contenedor .Pibicreditos{
+    background-color: transparent;
+    color: white;
+    /*Le estoy diciendo que ocupe solo la Columna 1*/
+    grid-column-start: 2;   
+    grid-column-end: 4;
+    /*Le estoy diciendo que ocupe la Fila 1 y la Fila 2*/
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.Pibitexto{
+    font-size: 0.35em;
+}
+/*----------------------------GRID TEXTOS----------------------------*/
+.Contenedor .Texto1{
+    grid-column-start: 2;   
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.Leyenda1{
+    font-size: 0.40em;
+    margin: 0px;  
+  
+}
+.Contenedor .Texto2{
+    grid-column-start: 2;   
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: transparent;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.Leyenda2{
+    font-size: 0.40em;
+    margin: 0px;
+    display: flex;
+}
+/*----------------------------GRID GMAIL----------------------------*/
+.Contenedor .Gmail{
+    grid-column-start: 4;   
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: transparent;
+    /*----------------------------EL FLEX SIRVE PARA POSICIONAR LOS ELEMENTOS DENTRO DE SU CELDA/GRILLA----------------------------*/
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.Iconos{
+    width: 55px;
+    height: 55px;
+}
+
+/*----------------------------GRID INSTRAGRAM----------------------------*/
+.Contenedor .Instagram{
+    grid-column-start: 4;   
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----------------------------GRID LEYENDAS----------------------------*/
+.Leyendas{
+    display: flex;
+    align-items: center;
+}
+
+/*----------------------------BUTTON----------------------------*/
+.Button{
+    border: solid transparent !important;
+    border-radius: 60px !important;
+    background-color: transparent !important;
+}
+.Button:hover{
+    border: solid white !important;
+}
+/*----------------------------@MEDIA SCREEN (RESPONSIVE DESING by Franco)----------------------------*/
+
+
+@media screen and (max-width: 1000px){
+    .Leyenda1 , .Leyenda2{
+        font-size: 15px;
+        margin: 0px;
+    }
+    .Iconos{
+        width: 45px;
+        height: 45px;
+    }
+    .Logo{
+        width: 100%;
+        height: auto;
+    }
+    .Leyendamail , .Leyendainstagram{
+        font-size: 20px;
+    }
+    .Pibitexto{
+        font-size: 0.35em;
+    }
+    
+    .Contenedor{
+ 
+        grid-gap:10px;
+    }
+
+}
+@media screen and (max-width: 700px){
+    .Leyenda1 , .Leyenda2{
+        font-size: 12px;
+        margin: 0px;
+    }
+
+    .Iconos{
+        width: 40px;
+        height: 40px;
+    }
+
+    .Pibitexto{
+        font-size: 0.20em;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px){
+    .Leyenda1 , .Leyenda2{
+        font-size: 11px;
+        margin: 0px;
+    }
+    .Iconos{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .Pibitexto{
+        font-size: 0.20em;
+    }
+
+    .Contenedor{
+        display: grid;
+        grid-template-columns: 2fr 4fr 0.5fr 1fr;
+        grid-template-rows: auto auto auto auto;
+      
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    .Leyenda1 , .Leyenda2{
+        font-size: 8px;
+        margin: 0px;
+    }
+    
+    .Pibitexto{
+        font-size: 0.15em;
+    }
+    
+    .Contenedor{
+ 
+        grid-gap:5px;
+    }
+
+    .Iconos{
+        width: 25px;
+        height: 25px;
+    }
+
+
+}
+
+@media screen and (max-width: 400px){
+
+    .Leyenda1 , .Leyenda2{
+        font-size: 7px;
+        margin: 0px;
+    }
+    
+    .Pibitexto{
+        font-size: 0.10em;
+    }
+
+    .Contenedor{
+ 
+        grid-gap:0px;
+    }
+
+    .Iconos{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+
+    .Leyenda1 , .Leyenda2{
+        font-size: 6px;
+        margin: 0px;
+    }
+    
+    .Pibitexto{
+        font-size: 0.10em;
+    }
+
+    .Contenedor{
+ 
+        grid-gap:0px;
+    }
+
+}

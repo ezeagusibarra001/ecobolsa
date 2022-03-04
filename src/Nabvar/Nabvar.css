@@ -1,0 +1,178 @@
+/*--------------------------------------NAV-LINK--------------------------------------*/
+.NavContenedor{
+    
+    display: grid !important;
+    grid-template-columns: 0.5fr 1.5fr 0.5fr 2fr  !important;
+    grid-template-rows: auto   !important;
+    box-shadow: 0 0 25px rgb(0,0,0) !important;
+    margin-bottom: 1%;
+}
+.ContenedorNavLink{
+   
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    grid-row-start: 1;
+    grid-row-start: 2;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    height: 100%;
+    width: 100%;
+}
+
+.Navlink{
+
+    grid-column-start: 1 !important;
+    grid-column-end: 2 !important;
+
+    color: black !important;
+    font-size: 16px;
+}
+
+/*--------------------------------------ICON--------------------------------------*/
+.Icon{
+
+    color: white !important;
+    background-color: #009600 !important;
+    border-radius: 30px !important;
+    padding: 10px !important;
+}
+.Icon:hover{
+    color: #009600 !important;
+    background-color: white !important;
+}
+/*--------------------------------------------------------------------LOGO----------------------------------------------*/
+.ContenedorLogo{
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-start: 2;
+
+    width: 100% !important;
+    height: auto !important;
+}
+.Logo{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*--------------------------------------@MEDIA SCREEN (Responsive desing by Franco)--------------------------------------*/
+
+
+@media screen and (max-width: 1300px){
+
+    .NavContenedor{
+   
+        display: grid !important;
+        grid-template-columns: 0.01fr 2fr 0.01fr 3fr  !important;
+        grid-template-rows: auto   !important;
+    }
+    
+}
+
+@media screen and (max-width: 1000px){
+    .Icon{
+        color:  #009600 !important;
+        background-color: white !important;
+    }
+
+    .NavContenedor{
+   
+        display: grid !important;
+        grid-template-columns: 1fr  !important;
+        grid-template-rows: auto  !important;
+    }
+
+    .ContenedorLogo{
+
+        grid-column-start: 1 !important;
+        grid-column-end: 2 !important;
+
+        grid-row-start: 1 !important;
+        grid-row-start: 2 !important;
+
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+      
+
+    }
+
+    .Logo{
+        width: 60%;
+        height: auto;
+    }
+
+    .ContenedorNavLink{
+   
+
+        grid-column-start: 1 !important;
+        grid-column-end: 2 !important;
+
+        grid-row-start: 2 !important;
+        grid-row-start: 3 !important;
+    
+    
+    }
+
+    .Colapso{
+
+        display: grid !important;
+        grid-template-columns: 2fr 1fr  !important;
+        grid-template-rows: 1fr 1fr 1fr !important;
+    }
+    .Icon{
+
+        grid-column-start: 2 !important;
+        grid-column-end: 3 !important;
+
+        grid-row-start: 1 !important;
+        grid-row-end: 4 !important;
+
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+        border: solid;
+        height: 60px;
+        width: 60px;
+
+        border-radius: 50px !important;
+    }
+    .Icon:hover{
+        color: white !important;
+        background-color: #009600 !important;
+    }
+
+    @media screen and (max-width: 500px){
+
+        .Icon{
+
+            height: 70px;
+            width: 70px;
+    
+            border-radius: 50px !important;
+        }
+
+        .Navlink{
+            font-size: 15px;
+        }
+
+        .Logo{
+            width: 80%;
+            height: auto;
+        }
+        
+    }
+
+    
+
+}

@@ -1,0 +1,435 @@
+/*------------------------------------CONTAINER GOD------------------------------------*/
+.ContainerGod{
+    background-color: white;
+    margin: 0% 1%;
+}
+/*------------------------------------CARRUSEL------------------------------------*/
+.Carruselfondo{
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color: green;
+    color: black;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 0 30px rgb(0,0,0) !important;
+}
+.Carruselcontainer{
+    width: 100%;
+    height: auto;
+}
+.Carrusel{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.ContenedorButton1{
+    height: auto;
+    position: absolute; top: 70%; left: -25% !important;
+}
+.ButtonC1{
+    width: auto !important;
+    height: auto !important;
+    color: white !important;
+    background-color: #59981a !important;
+    font-size: 25px !important;
+    padding: 0px 60px !important;
+    border: transparent !important;
+    border-radius: 50px !important;
+    box-shadow: 0 0 25px rgb(0,0,0) !important;
+}
+.ButtonC1:hover{
+    cursor: pointer !important;
+    color: #59981a !important;
+    background-color: white !important;
+  
+}
+
+.ContenedorButton2{
+    height: auto;
+    position: absolute; top: 80%; left: 60% !important;
+}
+
+.ButtonC2{
+    width: auto !important;
+    height: auto !important;
+    color: #59981a !important;
+    background-color: white !important;
+    font-size: 1.5em !important;
+    
+    border: transparent !important;
+    border-radius: 50px !important;
+}
+
+.ButtonC2:hover{
+    cursor: pointer !important;
+    background-color: white !important;
+    box-shadow: 0 0 25px white !important;
+}
+
+
+
+@media screen and (max-width: 1000px){
+
+    .ButtonC1{
+        font-size: 20px !important;
+    }
+
+    .ButtonC2{
+
+        font-size: 1.2em !important;
+    }
+
+    .ContenedorButton2{
+        position: absolute; top: 75% !important;
+    }
+
+
+}
+
+@media screen and (max-width: 750px){
+
+    .ButtonC1{
+        font-size: 15px !important;
+    }
+
+    .ButtonC2{
+
+        font-size: 0.8em !important;
+    }
+
+    .ContenedorButton2{
+        position: absolute; top: 70% !important;
+    }
+
+}
+@media screen and (max-width: 550px){
+
+    .ButtonC1{
+        font-size: 10px !important;
+        padding: 0px 20px !important;
+    }
+
+    .ContenedorButton1{
+        position: absolute; top: 60%; left: -25% !important;
+    }
+
+    .ContenedorButton2{
+        position: absolute; top: 70% !important;
+    
+    }
+
+    .ButtonC2{
+
+        font-size: 0.5em !important;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+
+    .ContenedorButton2{
+        position: absolute; top: 65% !important;
+    
+    }
+
+    .ButtonC2{
+
+        font-size: 0.4em !important;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+
+
+    .ContenedorButton2{
+        position: absolute; top: 60% !important;
+    
+    }
+
+    .ButtonC2{
+
+        font-size: 0.3em !important;
+    }
+
+}
+
+
+@media screen and (max-width:320px){
+
+    .ContenedorButton2{
+        position: absolute; top: 55% !important;
+    
+    }
+
+    .ButtonC2{
+
+        font-size: 0.3em !important;
+    }
+
+    .ContenedorButton1{
+        position: absolute; top: 55%; left: -25% !important;
+    }
+
+}
+
+/*------------------------------------VIDEO------------------------------------*/
+@media screen and (min-width: 601px){
+    .reallyVideo{
+        height: 315px ;
+        width: 560px;
+    }
+}
+@media screen and (max-width: 600px){
+    .reallyVideo{
+        height: 200px ;
+        width: 400px;
+    }
+}
+@media screen and (max-width: 400px){
+    .reallyVideo{
+        height: 150px ;
+        width: 300px;
+    }
+    .Video{
+        height: 250px !important;
+        padding-top: 45px !important;
+    }
+}
+
+.Video{
+    display: block;
+    text-align: center;
+    display: block;
+    padding: 70px 0px;
+    height: auto;
+    width: 100%;
+    background-image: url("../assetsSrc/Footer.png");
+    border: solid transparent;
+}
+
+/*------------------------------------ECONEWS------------------------------------*/
+.Fondoeconews{
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color: #009e00;
+    position: relative;
+}
+.Imagen{
+    display: block;
+    height: auto;
+    width: 100%;
+  
+}
+.ContenedorButtonE{
+    width: 100%;
+    height: auto;
+    position: absolute ; top: 80%;
+}
+.ContenedorButtonE{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+.ButtonE{
+    border-radius: 40px !important;
+    background-color: white !important;
+    color: #59981a !important;
+    border: solid transparent !important;
+
+    grid-column-start: 2 !important;   
+    grid-column-end: 3 !important;
+
+    grid-row-start: 1 !important;
+    grid-row-end: 3 !important;
+    font-size: 30px !important;
+
+    box-shadow: 0 0 40px #000 !important;
+}
+.ButtonE:hover{
+    cursor: pointer !important;
+    color: white !important;
+    background-color: #59981a !important;
+    border: solid white 2px !important;
+}
+.TextoE{
+    font-size: 1em !important;
+    text-align: center;
+}
+
+@media screen and (max-width:1150px){
+
+    .TextoE{
+        font-size: 1em !important;
+        text-align: center;
+    }
+    .ButtonE{
+
+        font-size: 20px !important;
+    }
+
+}
+
+@media screen and (max-width:820px){
+
+    .TextoE{
+        font-size: 1em !important;
+        text-align: center;
+    }
+    .ButtonE{
+
+        box-shadow: 0 0 20px #000 !important;
+        font-size: 15px !important;
+    }
+
+}
+
+@media screen and (max-width:650px){
+
+    .TextoE{
+        font-size: 1.5em !important;
+        text-align: center;
+    }
+    .ButtonE{
+
+        font-size: 5px !important;
+    }
+
+}
+@media screen and (max-width:420px){
+
+    .TextoE{
+        font-size: 2.5em !important;
+        text-align: center;
+    }
+    .ButtonE{
+
+        font-size: 2px !important;
+        height: 15px;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center;
+    }
+
+}
+
+/*------------------------------------PERSONALIZAR------------------------------------*/
+.Personalizarfondo{
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color: rgb(124, 119, 119);
+    position: relative;
+}
+.Imgpersonalizar{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.ContenedorButtonP{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr !important;
+    grid-template-rows: auto auto !important;
+    position: absolute ; top: 70%;
+    width: 100%;
+    height: auto;
+    
+}
+.ButtonP{
+    border-radius: 40px !important;
+    background-color: white !important;
+    color: #59981a !important;
+    border: solid transparent !important;
+
+    grid-column-start: 2 !important;   
+    grid-column-end: 3 !important;
+
+    grid-row-start: 1 !important;
+    grid-row-end: 2 !important; 
+
+    box-shadow: 0 0 40px #000 !important;
+}
+
+.ButtonP:hover{
+    cursor: pointer !important;
+    color: white !important;
+    background-color: #59981a !important;
+    border: solid white 2px !important;
+}
+.TextoP{
+    font-size: 2em !important;
+    text-align: center;
+}
+
+@media screen and (max-width:1400px){
+
+    .TextoP{
+        font-size: 1.5em !important;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:1050px){
+
+    .TextoP{
+        font-size: 1em !important;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:740px){
+
+    .TextoP{
+        font-size: 0.5em !important;
+        text-align: center;
+    }
+
+    .ButtonP{
+
+        height: 70%;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        
+    }
+
+}
+
+@media screen and (max-width:420px){
+
+    .TextoP{
+        font-size: 0.3em !important;
+        text-align: center;
+    }
+
+    .ButtonP{
+
+        height: 60%;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+}
+
+/*------------------------------------ELEGIRNOS------------------------------------*/
+.Elegirnosfondo{
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color: rgb(201, 198, 198);
+    color: black;
+    
+}
+.Imgelegirnos{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+

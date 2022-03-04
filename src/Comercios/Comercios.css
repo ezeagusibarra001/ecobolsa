@@ -1,0 +1,344 @@
+/*--------------------------------------IMG COMERCIOS--------------------------------------*/
+
+.ImgComercios{
+
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+/*--------------------------------------BANNER LOCALES--------------------------------------*/
+.ContainerBanner{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 0 25px rgb(0,0,0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-bottom: 2%;
+}
+.ContainerBanner>button{
+
+    color: #009600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    font-size: 25px;
+    border: none;    
+}
+
+.hover:hover{
+
+    color: #c4c4c4;
+        
+}
+/*----------------------------@MEDIA SCREEN BANNER LOCALES (RESPONSIVE DESING by Franco)----------------------------*/
+@media screen and (max-width: 1140px){
+    
+    .ContainerBanner{
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 900px){
+    .ContainerBanner{
+
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .ContainerBanner>div{
+
+        height: 60px;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .ContainerBanner>div{
+
+        height: 60px;
+        font-size: 10px;
+    }
+}
+/*------------------------------------------------LOCALES------------------------------------------------*/
+.ContainerLocales{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    height: auto;
+    width: 100%;
+}
+
+.ContainerCard{
+    margin: 0% 10%;
+}
+.Card{
+
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto !important;
+    width: 100% !important;
+    height: auto !important;
+    box-shadow: 0 0 6px rgb(0,0,0);
+    margin-bottom: 10px;
+}
+.CardImg{
+
+    grid-column-start: 1 !important;
+    grid-column-end: 2 !important;
+
+    grid-row-start: 1 !important;
+    grid-row-end: 2 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    
+
+    height: auto !important;
+    width: 100% !important;
+}
+
+.CardBody{
+
+    grid-column-start: 1 !important;
+    grid-column-end: 2 !important;
+
+    grid-row-start: 2 !important;
+    grid-row-end: 3 !important;
+
+    display: grid !important;
+    grid-template-columns: 4fr 1fr 1fr 4fr !important;
+    grid-template-rows: auto auto auto auto !important;
+
+    grid-gap: 15px;
+}
+
+.CardTittle{
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 35px !important;
+}
+
+.CardText{
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: monospace;
+    font-size: 1.5em;
+
+}
+
+.ContenedorWp{
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.ButtonWp{
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    background-color: #009600 !important;
+    border: solid transparent !important;
+    width: 60px;
+    height: auto;
+    border-radius: 30px !important;
+    border: solid transparent !important;
+}
+
+.ButtonWp:hover{
+    color: #009600 !important;
+    background-color: white !important;
+    border:  #009600 !important;
+}
+
+.disabled{
+    color: grey !important;
+}
+
+.ContenedorInstagram{
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.ButtonInstagram{
+
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    background-color: #009600 !important;
+    border: solid transparent !important;
+    width: 60px !important;
+    height: auto !important;
+    border-radius: 30px !important;
+    border: solid transparent !important;
+}
+.ButtonInstagram:hover{
+    color: #009600 !important;
+    background-color: white !important;
+    border:  #009600 !important;
+}
+
+/*----------------------------@MEDIA SCREEN CONTAINERLOCALES (RESPONSIVE DESING by Franco)----------------------------*/
+@media screen and (max-width: 1100px){
+    .ContainerLocales{
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto ;
+      
+    }
+
+    .Card{
+
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto auto !important;
+        
+    }
+
+
+}
+@media screen and (max-width: 800px){
+
+    .CardTittle{
+        font-size: 30px !important;
+    }
+
+    .CardText{
+
+        font-size: 20px !important;
+    }
+
+    .ContainerCard{
+        margin: 0% 5%;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .CardTittle{
+
+        font-size: 25px !important;
+    }
+
+    .CardText{
+
+        font-size: 15px !important;
+    }
+
+    .CardBody{
+
+        grid-gap:10px !important;
+    }
+
+    .ContainerCard{
+        margin: 0% 0%;
+    }
+   
+}
+
+
+
+@media screen and (max-width: 500px){
+
+    .CardTittle{
+        font-size: 20px !important;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    .CardTittle{
+        font-size: 18px !important;
+    }
+
+    .ButtonWp{
+        height: 50px !important;
+        width: 50px !important;
+    }
+
+    .ButtonInstagram{
+        height: 50px !important;
+        width: 50px !important;
+    }
+
+    .CardText{
+
+        font-size: 12px !important;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+
+    .CardTittle{
+        font-size: 30px !important;
+    }
+
+    .ButtonWp{
+        height: 50px !important;
+        width: 50px !important;
+    }
+
+    .ButtonInstagram{
+        height: 50px !important;
+        width: 50px !important;
+    }
+
+    .CardText{
+
+        font-size: 20px !important;
+    }
+
+    .ContainerLocales{
+
+        grid-template-columns: auto;
+        grid-template-rows: auto  ;
+      
+    }
+
+}
